@@ -1,0 +1,701 @@
+id,station_id,time_id,date,event_type,event_duration_min,reason,severity
+1,56,734,2025-03-31,Signal Problem,3,signal_failure,Low
+2,76,409,2025-03-18,Power Outage,11,overcrowding,Low
+3,70,922,2025-04-08,Maintenance,8,technical_fault,Low
+4,70,886,2025-04-06,Delay,3,track_maintenance,Medium
+5,16,339,2025-03-15,Overcrowding,45,technical_fault,Medium
+6,29,1095,2025-04-15,Maintenance,3,signal_failure,Medium
+7,4,853,2025-04-05,Overcrowding,6,overcrowding,Low
+8,52,840,2025-04-04,Delay,12,signal_failure,Low
+9,30,943,2025-04-09,Delay,3,power_issue,Low
+10,73,613,2025-03-26,Overcrowding,6,signal_failure,Low
+11,42,1382,2025-04-27,Overcrowding,3,signal_failure,High
+12,34,1045,2025-04-13,Signal Problem,45,signal_failure,Low
+13,67,784,2025-04-02,Signal Problem,14,technical_fault,Low
+14,62,1211,2025-04-20,Delay,3,power_issue,Medium
+15,50,1092,2025-04-15,Maintenance,33,signal_failure,Medium
+16,61,416,2025-03-18,Power Outage,7,power_issue,Low
+17,3,1161,2025-04-18,Power Outage,22,overcrowding,Medium
+18,42,1147,2025-04-17,Overcrowding,33,track_maintenance,Low
+19,53,1232,2025-04-21,Signal Problem,24,signal_failure,Low
+20,24,1073,2025-04-14,Signal Problem,18,signal_failure,High
+21,18,780,2025-04-02,Signal Problem,9,power_issue,Medium
+22,79,592,2025-03-25,Maintenance,44,signal_failure,Medium
+23,15,1140,2025-04-17,Maintenance,25,technical_fault,Medium
+24,8,1255,2025-04-22,Delay,15,signal_failure,High
+25,4,274,2025-03-12,Maintenance,3,technical_fault,Low
+26,57,92,2025-03-04,Technical Failure,88,signal_failure,Low
+27,59,1419,2025-04-29,Signal Problem,21,overcrowding,Low
+28,75,741,2025-03-31,Technical Failure,12,overcrowding,Medium
+29,69,54,2025-03-03,Signal Problem,59,power_issue,High
+30,54,256,2025-03-11,Power Outage,11,track_maintenance,Medium
+31,5,289,2025-03-13,Signal Problem,17,overcrowding,Low
+32,57,393,2025-03-17,Signal Problem,4,overcrowding,Medium
+33,3,861,2025-04-05,Overcrowding,73,scheduled_maintenance,Low
+34,24,661,2025-03-28,Delay,8,scheduled_maintenance,Low
+35,76,560,2025-03-24,Signal Problem,10,overcrowding,Low
+36,65,1120,2025-04-16,Power Outage,18,technical_fault,Low
+37,36,398,2025-03-17,Delay,3,track_maintenance,Low
+38,30,467,2025-03-20,Signal Problem,3,power_issue,High
+39,52,403,2025-03-17,Technical Failure,23,power_issue,High
+40,75,812,2025-04-03,Signal Problem,17,technical_fault,Low
+41,20,473,2025-03-20,Signal Problem,3,track_maintenance,Medium
+42,77,1072,2025-04-14,Maintenance,65,track_maintenance,Medium
+43,35,486,2025-03-21,Technical Failure,3,track_maintenance,Low
+44,65,423,2025-03-18,Technical Failure,7,signal_failure,Medium
+45,72,934,2025-04-08,Signal Problem,11,power_issue,High
+46,16,985,2025-04-11,Power Outage,8,track_maintenance,High
+47,4,509,2025-03-22,Signal Problem,8,track_maintenance,Low
+48,19,114,2025-03-05,Signal Problem,44,scheduled_maintenance,Low
+49,65,1307,2025-04-24,Maintenance,26,signal_failure,Medium
+50,72,543,2025-03-23,Technical Failure,4,scheduled_maintenance,Medium
+51,79,278,2025-03-12,Signal Problem,16,technical_fault,Low
+52,47,322,2025-03-14,Signal Problem,14,technical_fault,Low
+53,46,1156,2025-04-18,Signal Problem,63,technical_fault,Medium
+54,52,493,2025-03-21,Maintenance,19,technical_fault,Medium
+55,11,655,2025-03-28,Overcrowding,12,track_maintenance,Low
+56,30,149,2025-03-07,Signal Problem,22,power_issue,High
+57,66,956,2025-04-09,Technical Failure,4,technical_fault,Medium
+58,73,198,2025-03-09,Delay,40,technical_fault,Low
+59,60,1358,2025-04-26,Signal Problem,17,overcrowding,Low
+60,34,1036,2025-04-13,Power Outage,5,signal_failure,High
+61,50,664,2025-03-28,Maintenance,6,power_issue,Medium
+62,22,1244,2025-04-21,Maintenance,17,power_issue,Low
+63,53,186,2025-03-08,Maintenance,11,scheduled_maintenance,Low
+64,18,365,2025-03-16,Overcrowding,39,technical_fault,Low
+65,56,915,2025-04-08,Maintenance,19,track_maintenance,Low
+66,51,1402,2025-04-28,Signal Problem,39,signal_failure,Low
+67,26,74,2025-03-04,Delay,13,technical_fault,Low
+68,17,608,2025-03-26,Overcrowding,20,power_issue,Low
+69,12,990,2025-04-11,Maintenance,7,power_issue,Low
+70,19,70,2025-03-03,Power Outage,19,power_issue,High
+71,17,133,2025-03-06,Power Outage,58,track_maintenance,Medium
+72,52,967,2025-04-10,Technical Failure,7,scheduled_maintenance,High
+73,71,611,2025-03-26,Maintenance,3,scheduled_maintenance,High
+74,29,176,2025-03-08,Power Outage,16,track_maintenance,Medium
+75,44,1300,2025-04-24,Power Outage,20,track_maintenance,Medium
+76,3,598,2025-03-25,Maintenance,15,overcrowding,Low
+77,60,365,2025-03-16,Maintenance,13,technical_fault,High
+78,54,831,2025-04-04,Overcrowding,8,power_issue,Medium
+79,66,1322,2025-04-25,Delay,55,technical_fault,High
+80,44,1151,2025-04-17,Maintenance,3,power_issue,Low
+81,18,1132,2025-04-17,Power Outage,18,overcrowding,Medium
+82,47,462,2025-03-20,Technical Failure,19,scheduled_maintenance,Low
+83,37,313,2025-03-14,Power Outage,10,scheduled_maintenance,Low
+84,76,672,2025-03-28,Signal Problem,12,technical_fault,Low
+85,19,80,2025-03-04,Maintenance,3,signal_failure,Low
+86,73,897,2025-04-07,Technical Failure,3,scheduled_maintenance,Low
+87,20,1009,2025-04-12,Power Outage,10,technical_fault,Low
+88,6,313,2025-03-14,Technical Failure,44,track_maintenance,Low
+89,36,519,2025-03-22,Signal Problem,6,overcrowding,Low
+90,56,416,2025-03-18,Technical Failure,8,track_maintenance,Low
+91,14,383,2025-03-16,Delay,13,power_issue,Low
+92,59,634,2025-03-27,Technical Failure,24,scheduled_maintenance,High
+93,10,230,2025-03-10,Signal Problem,39,overcrowding,Medium
+94,65,276,2025-03-12,Signal Problem,3,overcrowding,Medium
+95,21,1197,2025-04-19,Signal Problem,12,technical_fault,Low
+96,46,1421,2025-04-29,Overcrowding,50,track_maintenance,Low
+97,60,509,2025-03-22,Technical Failure,3,signal_failure,Low
+98,33,1272,2025-04-22,Power Outage,6,power_issue,Low
+99,56,763,2025-04-01,Signal Problem,10,power_issue,Medium
+100,23,1147,2025-04-17,Technical Failure,18,signal_failure,Low
+101,43,890,2025-04-07,Technical Failure,3,power_issue,Medium
+102,55,930,2025-04-08,Power Outage,8,power_issue,Medium
+103,10,1319,2025-04-24,Overcrowding,7,scheduled_maintenance,High
+104,70,121,2025-03-06,Maintenance,36,scheduled_maintenance,Low
+105,16,371,2025-03-16,Signal Problem,24,scheduled_maintenance,Low
+106,23,988,2025-04-11,Delay,19,signal_failure,Low
+107,27,225,2025-03-10,Maintenance,6,track_maintenance,Low
+108,3,287,2025-03-12,Technical Failure,76,technical_fault,Low
+109,28,1001,2025-04-11,Delay,3,signal_failure,High
+110,33,198,2025-03-09,Signal Problem,8,signal_failure,Low
+111,51,548,2025-03-23,Power Outage,3,technical_fault,Low
+112,58,57,2025-03-03,Signal Problem,7,track_maintenance,Medium
+113,47,39,2025-03-02,Technical Failure,15,power_issue,Medium
+114,44,870,2025-04-06,Power Outage,21,track_maintenance,Medium
+115,28,1006,2025-04-11,Signal Problem,22,track_maintenance,Low
+116,47,334,2025-03-14,Maintenance,17,scheduled_maintenance,Low
+117,31,989,2025-04-11,Delay,3,scheduled_maintenance,Medium
+118,2,586,2025-03-25,Overcrowding,12,technical_fault,Low
+119,31,1279,2025-04-23,Signal Problem,30,overcrowding,Medium
+120,76,282,2025-03-12,Power Outage,14,track_maintenance,Medium
+121,8,883,2025-04-06,Signal Problem,8,track_maintenance,Low
+122,68,231,2025-03-10,Power Outage,11,track_maintenance,Medium
+123,65,926,2025-04-08,Maintenance,6,track_maintenance,Low
+124,60,158,2025-03-07,Overcrowding,4,scheduled_maintenance,Low
+125,22,850,2025-04-05,Power Outage,38,scheduled_maintenance,Low
+126,65,1026,2025-04-12,Delay,43,track_maintenance,Low
+127,52,487,2025-03-21,Delay,24,technical_fault,Low
+128,2,486,2025-03-21,Power Outage,4,scheduled_maintenance,High
+129,1,1387,2025-04-27,Signal Problem,63,overcrowding,Medium
+130,71,655,2025-03-28,Signal Problem,15,power_issue,Medium
+131,70,160,2025-03-07,Power Outage,3,scheduled_maintenance,Low
+132,41,899,2025-04-07,Power Outage,10,signal_failure,High
+133,60,1368,2025-04-26,Power Outage,36,overcrowding,Medium
+134,19,702,2025-03-30,Overcrowding,9,track_maintenance,Medium
+135,9,115,2025-03-05,Overcrowding,5,signal_failure,High
+136,14,1456,2025-04-30,Delay,46,track_maintenance,Low
+137,6,675,2025-03-29,Delay,5,signal_failure,Low
+138,27,1121,2025-04-16,Signal Problem,16,overcrowding,Low
+139,80,839,2025-04-04,Overcrowding,12,technical_fault,Low
+140,53,1210,2025-04-20,Technical Failure,19,signal_failure,Medium
+141,24,877,2025-04-06,Technical Failure,36,signal_failure,Medium
+142,20,442,2025-03-19,Technical Failure,5,scheduled_maintenance,Low
+143,34,736,2025-03-31,Technical Failure,12,technical_fault,Low
+144,61,1390,2025-04-27,Delay,3,power_issue,Low
+145,3,518,2025-03-22,Signal Problem,43,scheduled_maintenance,Low
+146,40,1382,2025-04-27,Overcrowding,3,track_maintenance,Low
+147,46,733,2025-03-31,Delay,37,track_maintenance,Low
+148,39,1208,2025-04-20,Technical Failure,9,track_maintenance,Medium
+149,28,695,2025-03-29,Delay,20,scheduled_maintenance,Medium
+150,26,152,2025-03-07,Overcrowding,12,signal_failure,Low
+151,27,920,2025-04-08,Power Outage,10,technical_fault,High
+152,36,237,2025-03-10,Technical Failure,21,track_maintenance,Medium
+153,16,347,2025-03-15,Power Outage,4,track_maintenance,Low
+154,30,589,2025-03-25,Delay,54,signal_failure,Low
+155,34,991,2025-04-11,Power Outage,21,signal_failure,Low
+156,5,496,2025-03-21,Power Outage,24,track_maintenance,Low
+157,18,1437,2025-04-29,Technical Failure,4,scheduled_maintenance,High
+158,27,98,2025-03-05,Overcrowding,13,signal_failure,Low
+159,59,934,2025-04-08,Maintenance,22,scheduled_maintenance,High
+160,79,1030,2025-04-12,Technical Failure,15,technical_fault,Medium
+161,44,799,2025-04-03,Technical Failure,3,technical_fault,Low
+162,14,488,2025-03-21,Technical Failure,8,scheduled_maintenance,Medium
+163,65,626,2025-03-27,Maintenance,33,power_issue,Medium
+164,16,1274,2025-04-23,Maintenance,17,technical_fault,Low
+165,72,1311,2025-04-24,Maintenance,3,track_maintenance,Low
+166,33,461,2025-03-20,Delay,3,scheduled_maintenance,Medium
+167,24,1387,2025-04-27,Overcrowding,51,overcrowding,Low
+168,36,847,2025-04-05,Overcrowding,12,power_issue,Low
+169,5,1436,2025-04-29,Maintenance,3,power_issue,Low
+170,56,1345,2025-04-26,Signal Problem,65,signal_failure,Medium
+171,19,1342,2025-04-25,Overcrowding,3,scheduled_maintenance,High
+172,25,1032,2025-04-12,Technical Failure,6,power_issue,Low
+173,26,408,2025-03-17,Delay,3,scheduled_maintenance,High
+174,78,95,2025-03-04,Technical Failure,3,track_maintenance,High
+175,35,150,2025-03-07,Maintenance,51,signal_failure,Low
+176,44,1235,2025-04-21,Overcrowding,3,technical_fault,Medium
+177,63,103,2025-03-05,Signal Problem,58,power_issue,Medium
+178,13,582,2025-03-25,Overcrowding,40,scheduled_maintenance,Low
+179,6,363,2025-03-16,Power Outage,16,scheduled_maintenance,Low
+180,78,1250,2025-04-22,Maintenance,5,power_issue,Low
+181,34,117,2025-03-05,Delay,18,technical_fault,Medium
+182,44,1075,2025-04-14,Delay,17,track_maintenance,Low
+183,28,1117,2025-04-16,Overcrowding,14,track_maintenance,Low
+184,42,283,2025-03-12,Overcrowding,14,signal_failure,Low
+185,11,776,2025-04-02,Delay,3,track_maintenance,High
+186,39,1199,2025-04-19,Maintenance,31,signal_failure,Low
+187,44,1452,2025-04-30,Maintenance,15,track_maintenance,High
+188,1,78,2025-03-04,Maintenance,3,track_maintenance,Low
+189,1,336,2025-03-14,Technical Failure,17,scheduled_maintenance,High
+190,68,876,2025-04-06,Delay,4,power_issue,Low
+191,2,815,2025-04-03,Delay,14,power_issue,Low
+192,75,932,2025-04-08,Power Outage,3,signal_failure,Medium
+193,50,1270,2025-04-22,Maintenance,77,power_issue,Low
+194,22,1259,2025-04-22,Maintenance,27,overcrowding,Medium
+195,4,438,2025-03-19,Signal Problem,74,technical_fault,Medium
+196,66,393,2025-03-17,Maintenance,3,signal_failure,Low
+197,20,549,2025-03-23,Signal Problem,6,signal_failure,Medium
+198,2,615,2025-03-26,Maintenance,8,scheduled_maintenance,Low
+199,66,87,2025-03-04,Signal Problem,3,power_issue,Medium
+200,6,786,2025-04-02,Power Outage,7,signal_failure,High
+201,25,496,2025-03-21,Delay,21,track_maintenance,Medium
+202,46,1131,2025-04-17,Maintenance,3,scheduled_maintenance,Medium
+203,14,970,2025-04-10,Technical Failure,5,power_issue,Low
+204,51,752,2025-04-01,Technical Failure,15,technical_fault,Low
+205,53,198,2025-03-09,Power Outage,24,overcrowding,Medium
+206,53,1154,2025-04-18,Overcrowding,64,power_issue,Low
+207,53,718,2025-03-30,Maintenance,3,track_maintenance,Medium
+208,37,99,2025-03-05,Signal Problem,16,power_issue,Medium
+209,77,557,2025-03-24,Signal Problem,7,power_issue,Low
+210,36,1221,2025-04-20,Technical Failure,17,technical_fault,Low
+211,70,488,2025-03-21,Maintenance,9,track_maintenance,Low
+212,7,667,2025-03-28,Technical Failure,3,scheduled_maintenance,Low
+213,34,1220,2025-04-20,Maintenance,35,technical_fault,Low
+214,27,938,2025-04-09,Overcrowding,11,track_maintenance,Medium
+215,24,228,2025-03-10,Overcrowding,3,signal_failure,Low
+216,13,1366,2025-04-26,Power Outage,6,power_issue,Medium
+217,74,1306,2025-04-24,Power Outage,56,power_issue,Low
+218,5,1093,2025-04-15,Delay,24,scheduled_maintenance,High
+219,52,68,2025-03-03,Maintenance,10,signal_failure,Medium
+220,59,1222,2025-04-20,Technical Failure,6,track_maintenance,Low
+221,12,645,2025-03-27,Power Outage,3,power_issue,Medium
+222,63,83,2025-03-04,Signal Problem,3,scheduled_maintenance,Low
+223,36,1093,2025-04-15,Signal Problem,21,power_issue,High
+224,45,1224,2025-04-20,Overcrowding,91,technical_fault,Medium
+225,16,740,2025-03-31,Overcrowding,6,overcrowding,Medium
+226,10,1063,2025-04-14,Signal Problem,18,scheduled_maintenance,Medium
+227,4,301,2025-03-13,Delay,3,overcrowding,Low
+228,59,669,2025-03-28,Technical Failure,6,overcrowding,Low
+229,53,1334,2025-04-25,Maintenance,3,signal_failure,Low
+230,37,713,2025-03-30,Technical Failure,3,power_issue,Medium
+231,44,585,2025-03-25,Delay,14,scheduled_maintenance,Medium
+232,3,470,2025-03-20,Power Outage,27,technical_fault,Low
+233,36,931,2025-04-08,Technical Failure,6,signal_failure,Medium
+234,1,1328,2025-04-25,Signal Problem,22,signal_failure,Medium
+235,38,812,2025-04-03,Power Outage,16,signal_failure,Low
+236,76,1046,2025-04-13,Technical Failure,23,signal_failure,High
+237,14,718,2025-03-30,Power Outage,13,track_maintenance,Medium
+238,12,1362,2025-04-26,Power Outage,16,scheduled_maintenance,Low
+239,11,112,2025-03-05,Power Outage,16,track_maintenance,Low
+240,70,535,2025-03-23,Technical Failure,26,power_issue,Medium
+241,13,1226,2025-04-21,Delay,13,overcrowding,Medium
+242,44,519,2025-03-22,Signal Problem,33,signal_failure,Medium
+243,16,1340,2025-04-25,Power Outage,23,technical_fault,Low
+244,24,781,2025-04-02,Maintenance,18,technical_fault,Low
+245,74,155,2025-03-07,Delay,7,track_maintenance,Low
+246,77,477,2025-03-20,Power Outage,33,power_issue,Medium
+247,17,1014,2025-04-12,Signal Problem,6,scheduled_maintenance,Low
+248,45,14,2025-03-01,Signal Problem,5,track_maintenance,Medium
+249,48,956,2025-04-09,Power Outage,19,scheduled_maintenance,High
+250,79,711,2025-03-30,Power Outage,3,track_maintenance,Low
+251,32,878,2025-04-06,Signal Problem,39,track_maintenance,Medium
+252,18,1392,2025-04-27,Maintenance,118,technical_fault,High
+253,8,496,2025-03-21,Power Outage,3,signal_failure,High
+254,34,1271,2025-04-22,Delay,6,overcrowding,High
+255,39,652,2025-03-28,Power Outage,43,power_issue,Low
+256,72,915,2025-04-08,Signal Problem,5,signal_failure,Low
+257,68,1399,2025-04-28,Power Outage,21,technical_fault,Low
+258,22,1159,2025-04-18,Technical Failure,3,scheduled_maintenance,Medium
+259,30,248,2025-03-11,Delay,6,power_issue,Low
+260,30,1398,2025-04-28,Power Outage,5,power_issue,High
+261,1,1140,2025-04-17,Technical Failure,5,power_issue,Low
+262,56,371,2025-03-16,Power Outage,6,technical_fault,Medium
+263,52,1461,2025-04-30,Overcrowding,3,power_issue,Low
+264,19,91,2025-03-04,Overcrowding,3,overcrowding,Low
+265,69,140,2025-03-06,Delay,27,track_maintenance,Medium
+266,41,126,2025-03-06,Maintenance,14,power_issue,Medium
+267,41,188,2025-03-08,Maintenance,11,technical_fault,Low
+268,28,477,2025-03-20,Power Outage,4,scheduled_maintenance,Medium
+269,75,950,2025-04-09,Delay,3,overcrowding,Low
+270,25,573,2025-03-24,Delay,5,scheduled_maintenance,Medium
+271,61,1321,2025-04-25,Maintenance,5,scheduled_maintenance,Low
+272,47,1435,2025-04-29,Technical Failure,4,power_issue,Medium
+273,50,1446,2025-04-30,Delay,30,signal_failure,Medium
+274,5,1114,2025-04-16,Overcrowding,47,overcrowding,High
+275,32,381,2025-03-16,Signal Problem,3,overcrowding,Low
+276,10,407,2025-03-17,Overcrowding,15,technical_fault,Low
+277,10,295,2025-03-13,Maintenance,15,track_maintenance,Medium
+278,27,1289,2025-04-23,Technical Failure,18,power_issue,Low
+279,24,1438,2025-04-29,Technical Failure,10,track_maintenance,Low
+280,3,1071,2025-04-14,Delay,24,scheduled_maintenance,Low
+281,71,718,2025-03-30,Signal Problem,47,technical_fault,Medium
+282,73,708,2025-03-30,Signal Problem,56,signal_failure,Low
+283,16,1305,2025-04-24,Technical Failure,34,track_maintenance,Medium
+284,32,707,2025-03-30,Maintenance,7,overcrowding,Low
+285,14,1355,2025-04-26,Overcrowding,8,track_maintenance,Medium
+286,69,89,2025-03-04,Signal Problem,3,scheduled_maintenance,Low
+287,41,1350,2025-04-26,Maintenance,15,power_issue,Low
+288,29,1097,2025-04-15,Overcrowding,59,power_issue,High
+289,4,1383,2025-04-27,Power Outage,5,power_issue,Medium
+290,18,121,2025-03-06,Power Outage,3,power_issue,Low
+291,1,716,2025-03-30,Technical Failure,11,signal_failure,Medium
+292,33,504,2025-03-21,Technical Failure,22,track_maintenance,Low
+293,30,1105,2025-04-16,Delay,3,scheduled_maintenance,High
+294,59,647,2025-03-27,Maintenance,3,track_maintenance,Low
+295,53,838,2025-04-04,Overcrowding,24,power_issue,Low
+296,55,228,2025-03-10,Delay,8,track_maintenance,Medium
+297,61,507,2025-03-22,Delay,16,track_maintenance,High
+298,34,90,2025-03-04,Technical Failure,34,scheduled_maintenance,Low
+299,66,1148,2025-04-17,Technical Failure,16,track_maintenance,Low
+300,30,515,2025-03-22,Overcrowding,16,signal_failure,Medium
+301,50,750,2025-04-01,Power Outage,10,overcrowding,High
+302,36,30,2025-03-02,Signal Problem,5,technical_fault,High
+303,24,514,2025-03-22,Maintenance,37,overcrowding,Low
+304,65,130,2025-03-06,Technical Failure,3,overcrowding,Medium
+305,79,591,2025-03-25,Delay,3,power_issue,High
+306,30,534,2025-03-23,Overcrowding,46,scheduled_maintenance,Low
+307,52,909,2025-04-07,Technical Failure,5,technical_fault,Medium
+308,26,691,2025-03-29,Signal Problem,4,technical_fault,High
+309,24,974,2025-04-10,Delay,52,scheduled_maintenance,Medium
+310,49,742,2025-03-31,Technical Failure,3,overcrowding,High
+311,78,381,2025-03-16,Signal Problem,15,technical_fault,Low
+312,70,737,2025-03-31,Technical Failure,11,power_issue,Low
+313,14,41,2025-03-02,Technical Failure,24,overcrowding,High
+314,80,954,2025-04-09,Maintenance,23,track_maintenance,Low
+315,1,872,2025-04-06,Power Outage,54,signal_failure,High
+316,42,659,2025-03-28,Signal Problem,6,overcrowding,Low
+317,25,365,2025-03-16,Delay,5,overcrowding,Medium
+318,73,95,2025-03-04,Signal Problem,21,power_issue,Low
+319,69,639,2025-03-27,Power Outage,8,signal_failure,High
+320,3,306,2025-03-13,Overcrowding,33,scheduled_maintenance,Low
+321,30,308,2025-03-13,Technical Failure,3,technical_fault,Low
+322,44,1034,2025-04-13,Overcrowding,28,scheduled_maintenance,Low
+323,35,735,2025-03-31,Overcrowding,32,technical_fault,Low
+324,71,734,2025-03-31,Power Outage,31,overcrowding,Low
+325,80,803,2025-04-03,Overcrowding,34,technical_fault,Low
+326,33,716,2025-03-30,Maintenance,79,signal_failure,Low
+327,11,603,2025-03-26,Signal Problem,44,track_maintenance,Low
+328,27,1238,2025-04-21,Maintenance,61,technical_fault,Medium
+329,46,254,2025-03-11,Delay,53,signal_failure,Low
+330,48,258,2025-03-11,Overcrowding,24,scheduled_maintenance,Low
+331,63,204,2025-03-09,Power Outage,9,technical_fault,Medium
+332,43,533,2025-03-23,Delay,29,signal_failure,Medium
+333,1,779,2025-04-02,Maintenance,29,signal_failure,Medium
+334,23,662,2025-03-28,Signal Problem,8,track_maintenance,Medium
+335,46,481,2025-03-21,Technical Failure,51,overcrowding,Low
+336,36,1454,2025-04-30,Overcrowding,14,signal_failure,Low
+337,37,208,2025-03-09,Technical Failure,11,overcrowding,Low
+338,29,1329,2025-04-25,Power Outage,18,scheduled_maintenance,Medium
+339,45,1095,2025-04-15,Maintenance,7,overcrowding,Low
+340,26,1028,2025-04-12,Maintenance,20,power_issue,High
+341,41,392,2025-03-17,Overcrowding,3,track_maintenance,Medium
+342,22,502,2025-03-21,Maintenance,32,overcrowding,Medium
+343,31,930,2025-04-08,Signal Problem,38,overcrowding,Low
+344,30,578,2025-03-25,Delay,3,overcrowding,High
+345,26,1268,2025-04-22,Power Outage,7,technical_fault,Medium
+346,38,157,2025-03-07,Maintenance,3,track_maintenance,High
+347,4,569,2025-03-24,Signal Problem,35,overcrowding,High
+348,20,150,2025-03-07,Overcrowding,12,track_maintenance,Medium
+349,53,605,2025-03-26,Signal Problem,35,technical_fault,Low
+350,12,1084,2025-04-15,Maintenance,16,technical_fault,Medium
+351,51,1115,2025-04-16,Signal Problem,7,power_issue,Low
+352,24,1043,2025-04-13,Overcrowding,20,track_maintenance,Low
+353,17,278,2025-03-12,Overcrowding,15,power_issue,Medium
+354,3,1042,2025-04-13,Overcrowding,3,overcrowding,Medium
+355,13,1378,2025-04-27,Power Outage,3,technical_fault,Medium
+356,48,1382,2025-04-27,Power Outage,3,signal_failure,Medium
+357,77,164,2025-03-07,Overcrowding,6,scheduled_maintenance,Medium
+358,21,483,2025-03-21,Maintenance,19,signal_failure,Medium
+359,4,1364,2025-04-26,Power Outage,3,overcrowding,Medium
+360,52,261,2025-03-11,Maintenance,6,technical_fault,Low
+361,65,574,2025-03-24,Overcrowding,33,overcrowding,Medium
+362,56,1271,2025-04-22,Delay,9,power_issue,High
+363,51,636,2025-03-27,Delay,8,technical_fault,Medium
+364,52,1102,2025-04-15,Signal Problem,38,signal_failure,Medium
+365,34,1034,2025-04-13,Delay,3,track_maintenance,Low
+366,45,554,2025-03-24,Technical Failure,16,signal_failure,Medium
+367,1,381,2025-03-16,Maintenance,11,technical_fault,High
+368,7,832,2025-04-04,Technical Failure,3,scheduled_maintenance,Low
+369,58,700,2025-03-30,Signal Problem,16,power_issue,Medium
+370,8,1160,2025-04-18,Signal Problem,8,track_maintenance,High
+371,73,314,2025-03-14,Technical Failure,3,overcrowding,Low
+372,77,758,2025-04-01,Technical Failure,3,technical_fault,Medium
+373,4,566,2025-03-24,Technical Failure,5,technical_fault,Medium
+374,31,1299,2025-04-24,Delay,85,technical_fault,Low
+375,5,787,2025-04-02,Technical Failure,19,overcrowding,Low
+376,48,401,2025-03-17,Signal Problem,13,scheduled_maintenance,High
+377,79,858,2025-04-05,Power Outage,27,track_maintenance,Medium
+378,41,268,2025-03-12,Signal Problem,9,track_maintenance,Low
+379,46,807,2025-04-03,Maintenance,8,overcrowding,Low
+380,42,805,2025-04-03,Maintenance,21,overcrowding,Low
+381,45,1145,2025-04-17,Technical Failure,34,power_issue,Low
+382,36,1417,2025-04-29,Overcrowding,60,scheduled_maintenance,Medium
+383,49,821,2025-04-04,Power Outage,23,track_maintenance,High
+384,72,740,2025-03-31,Overcrowding,15,technical_fault,High
+385,5,455,2025-03-19,Delay,46,track_maintenance,Medium
+386,73,661,2025-03-28,Delay,8,overcrowding,High
+387,70,926,2025-04-08,Technical Failure,10,power_issue,Low
+388,53,438,2025-03-19,Maintenance,6,track_maintenance,Low
+389,11,1038,2025-04-13,Signal Problem,3,signal_failure,Medium
+390,28,1079,2025-04-14,Maintenance,3,scheduled_maintenance,Low
+391,44,1429,2025-04-29,Overcrowding,3,technical_fault,Low
+392,36,1250,2025-04-22,Maintenance,29,technical_fault,Medium
+393,18,29,2025-03-02,Delay,3,scheduled_maintenance,Low
+394,8,1447,2025-04-30,Maintenance,19,technical_fault,Medium
+395,48,1017,2025-04-12,Delay,24,signal_failure,Low
+396,27,464,2025-03-20,Delay,3,technical_fault,Medium
+397,31,1282,2025-04-23,Technical Failure,12,signal_failure,Low
+398,13,845,2025-04-05,Delay,22,signal_failure,Low
+399,49,855,2025-04-05,Signal Problem,13,power_issue,Low
+400,46,959,2025-04-09,Delay,17,technical_fault,Low
+401,37,559,2025-03-24,Maintenance,17,overcrowding,High
+402,73,782,2025-04-02,Overcrowding,46,power_issue,Low
+403,22,858,2025-04-05,Overcrowding,46,power_issue,High
+404,31,958,2025-04-09,Delay,7,overcrowding,Low
+405,66,1389,2025-04-27,Maintenance,18,technical_fault,Medium
+406,23,145,2025-03-07,Overcrowding,17,track_maintenance,Low
+407,1,1029,2025-04-12,Technical Failure,82,signal_failure,Medium
+408,29,1196,2025-04-19,Maintenance,7,track_maintenance,Medium
+409,41,55,2025-03-03,Technical Failure,10,signal_failure,Medium
+410,43,503,2025-03-21,Maintenance,8,signal_failure,Low
+411,54,725,2025-03-31,Overcrowding,34,scheduled_maintenance,Medium
+412,73,377,2025-03-16,Delay,11,track_maintenance,Low
+413,64,639,2025-03-27,Maintenance,3,technical_fault,Medium
+414,37,676,2025-03-29,Power Outage,57,track_maintenance,Medium
+415,11,59,2025-03-03,Technical Failure,4,technical_fault,Low
+416,71,1009,2025-04-12,Overcrowding,10,technical_fault,Medium
+417,40,583,2025-03-25,Technical Failure,5,track_maintenance,Medium
+418,7,364,2025-03-16,Delay,14,track_maintenance,Low
+419,50,811,2025-04-03,Maintenance,43,technical_fault,Low
+420,7,360,2025-03-15,Overcrowding,22,track_maintenance,Low
+421,70,332,2025-03-14,Overcrowding,5,power_issue,Medium
+422,71,298,2025-03-13,Signal Problem,4,signal_failure,Low
+423,53,90,2025-03-04,Delay,3,power_issue,Medium
+424,3,144,2025-03-06,Signal Problem,9,scheduled_maintenance,Medium
+425,75,994,2025-04-11,Overcrowding,6,overcrowding,Medium
+426,51,1302,2025-04-24,Power Outage,3,scheduled_maintenance,High
+427,22,276,2025-03-12,Technical Failure,7,power_issue,High
+428,60,1380,2025-04-27,Signal Problem,20,technical_fault,Medium
+429,20,29,2025-03-02,Overcrowding,3,power_issue,Low
+430,49,1365,2025-04-26,Signal Problem,12,scheduled_maintenance,Low
+431,23,700,2025-03-30,Overcrowding,8,signal_failure,Low
+432,74,1247,2025-04-21,Power Outage,38,overcrowding,Low
+433,71,308,2025-03-13,Signal Problem,30,signal_failure,Low
+434,10,1272,2025-04-22,Overcrowding,32,technical_fault,Low
+435,1,906,2025-04-07,Signal Problem,14,technical_fault,Low
+436,17,1384,2025-04-27,Delay,71,power_issue,Medium
+437,70,581,2025-03-25,Delay,62,track_maintenance,High
+438,63,551,2025-03-23,Maintenance,5,track_maintenance,High
+439,68,1132,2025-04-17,Power Outage,29,track_maintenance,High
+440,31,513,2025-03-22,Overcrowding,8,track_maintenance,Medium
+441,77,616,2025-03-26,Delay,13,power_issue,Medium
+442,46,1040,2025-04-13,Signal Problem,15,power_issue,Medium
+443,30,453,2025-03-19,Maintenance,8,track_maintenance,Low
+444,65,37,2025-03-02,Overcrowding,8,signal_failure,Low
+445,34,1354,2025-04-26,Power Outage,12,overcrowding,Low
+446,22,557,2025-03-24,Overcrowding,9,overcrowding,Low
+447,75,543,2025-03-23,Power Outage,28,signal_failure,Medium
+448,7,1404,2025-04-28,Delay,9,power_issue,Medium
+449,49,952,2025-04-09,Delay,6,overcrowding,Low
+450,73,1295,2025-04-23,Signal Problem,12,scheduled_maintenance,Low
+451,16,1110,2025-04-16,Delay,16,power_issue,High
+452,34,617,2025-03-26,Delay,6,track_maintenance,Medium
+453,69,486,2025-03-21,Overcrowding,43,scheduled_maintenance,Medium
+454,60,88,2025-03-04,Power Outage,26,track_maintenance,High
+455,59,1257,2025-04-22,Power Outage,21,signal_failure,Low
+456,21,713,2025-03-30,Delay,13,overcrowding,Medium
+457,74,194,2025-03-09,Signal Problem,16,signal_failure,Medium
+458,44,84,2025-03-04,Overcrowding,8,signal_failure,High
+459,45,914,2025-04-08,Overcrowding,4,signal_failure,High
+460,30,522,2025-03-22,Signal Problem,15,scheduled_maintenance,High
+461,10,475,2025-03-20,Maintenance,47,signal_failure,Medium
+462,3,587,2025-03-25,Maintenance,9,overcrowding,Medium
+463,49,1190,2025-04-19,Power Outage,28,overcrowding,Medium
+464,16,314,2025-03-14,Overcrowding,23,technical_fault,Medium
+465,30,986,2025-04-11,Signal Problem,7,power_issue,Low
+466,22,1086,2025-04-15,Overcrowding,3,signal_failure,Low
+467,21,844,2025-04-05,Delay,3,power_issue,High
+468,52,695,2025-03-29,Delay,22,track_maintenance,Low
+469,10,203,2025-03-09,Maintenance,134,overcrowding,Medium
+470,42,979,2025-04-10,Maintenance,9,overcrowding,Medium
+471,8,259,2025-03-11,Power Outage,6,signal_failure,Medium
+472,60,857,2025-04-05,Overcrowding,3,signal_failure,Low
+473,25,1329,2025-04-25,Overcrowding,24,signal_failure,Low
+474,60,186,2025-03-08,Technical Failure,18,technical_fault,Low
+475,59,176,2025-03-08,Signal Problem,27,technical_fault,High
+476,4,571,2025-03-24,Signal Problem,59,power_issue,High
+477,12,827,2025-04-04,Maintenance,6,signal_failure,Low
+478,38,442,2025-03-19,Overcrowding,17,signal_failure,Low
+479,57,1026,2025-04-12,Technical Failure,15,technical_fault,Low
+480,18,1449,2025-04-30,Signal Problem,11,signal_failure,High
+481,67,1463,2025-04-30,Maintenance,11,power_issue,Medium
+482,69,1122,2025-04-16,Signal Problem,3,overcrowding,Medium
+483,62,537,2025-03-23,Maintenance,23,overcrowding,Low
+484,22,944,2025-04-09,Signal Problem,3,track_maintenance,Medium
+485,26,769,2025-04-02,Maintenance,3,scheduled_maintenance,Medium
+486,72,1124,2025-04-16,Signal Problem,46,scheduled_maintenance,Medium
+487,39,1028,2025-04-12,Technical Failure,9,technical_fault,High
+488,18,595,2025-03-25,Signal Problem,3,track_maintenance,High
+489,55,138,2025-03-06,Delay,28,scheduled_maintenance,Low
+490,18,510,2025-03-22,Delay,51,power_issue,Low
+491,77,346,2025-03-15,Technical Failure,32,power_issue,High
+492,31,571,2025-03-24,Maintenance,4,scheduled_maintenance,Low
+493,78,343,2025-03-15,Overcrowding,37,overcrowding,Medium
+494,72,502,2025-03-21,Overcrowding,21,track_maintenance,Low
+495,26,273,2025-03-12,Maintenance,55,track_maintenance,Low
+496,10,526,2025-03-22,Maintenance,26,scheduled_maintenance,Low
+497,60,1162,2025-04-18,Overcrowding,16,scheduled_maintenance,Low
+498,74,525,2025-03-22,Power Outage,13,scheduled_maintenance,Low
+499,67,1370,2025-04-27,Technical Failure,14,overcrowding,Low
+500,18,673,2025-03-29,Delay,6,track_maintenance,Low
+501,63,335,2025-03-14,Delay,10,track_maintenance,Low
+502,47,1354,2025-04-26,Delay,25,power_issue,Medium
+503,46,839,2025-04-04,Signal Problem,18,power_issue,Medium
+504,61,1321,2025-04-25,Delay,32,power_issue,Low
+505,23,1286,2025-04-23,Signal Problem,72,scheduled_maintenance,Medium
+506,14,1395,2025-04-28,Technical Failure,3,signal_failure,Low
+507,35,616,2025-03-26,Signal Problem,5,power_issue,Low
+508,41,83,2025-03-04,Power Outage,29,scheduled_maintenance,Medium
+509,32,34,2025-03-02,Signal Problem,5,overcrowding,Low
+510,65,155,2025-03-07,Overcrowding,9,power_issue,Medium
+511,28,855,2025-04-05,Overcrowding,53,track_maintenance,Low
+512,70,1352,2025-04-26,Maintenance,7,technical_fault,Low
+513,63,1059,2025-04-14,Power Outage,19,power_issue,Medium
+514,55,1167,2025-04-18,Power Outage,28,overcrowding,Low
+515,45,1410,2025-04-28,Power Outage,10,track_maintenance,Medium
+516,60,590,2025-03-25,Maintenance,18,signal_failure,Low
+517,36,489,2025-03-21,Maintenance,7,signal_failure,Low
+518,44,299,2025-03-13,Delay,4,power_issue,High
+519,28,1313,2025-04-24,Power Outage,5,technical_fault,Low
+520,7,1412,2025-04-28,Technical Failure,6,power_issue,Low
+521,29,1150,2025-04-17,Overcrowding,3,scheduled_maintenance,Medium
+522,19,784,2025-04-02,Maintenance,3,signal_failure,Low
+523,10,271,2025-03-12,Delay,14,scheduled_maintenance,Medium
+524,6,276,2025-03-12,Delay,7,scheduled_maintenance,Medium
+525,28,819,2025-04-04,Power Outage,35,scheduled_maintenance,Low
+526,49,365,2025-03-16,Power Outage,43,technical_fault,Low
+527,28,167,2025-03-07,Overcrowding,18,signal_failure,Low
+528,66,167,2025-03-07,Maintenance,23,scheduled_maintenance,Low
+529,34,101,2025-03-05,Technical Failure,11,technical_fault,Medium
+530,48,826,2025-04-04,Delay,8,power_issue,Medium
+531,6,571,2025-03-24,Delay,6,technical_fault,Low
+532,7,1131,2025-04-17,Maintenance,25,power_issue,Medium
+533,46,792,2025-04-02,Overcrowding,8,overcrowding,High
+534,68,96,2025-03-04,Maintenance,49,technical_fault,Low
+535,32,560,2025-03-24,Maintenance,3,technical_fault,Low
+536,1,1076,2025-04-14,Maintenance,11,overcrowding,Low
+537,10,1045,2025-04-13,Maintenance,3,power_issue,Low
+538,16,824,2025-04-04,Overcrowding,7,track_maintenance,High
+539,75,1388,2025-04-27,Maintenance,18,power_issue,Medium
+540,2,802,2025-04-03,Delay,35,track_maintenance,Low
+541,10,209,2025-03-09,Overcrowding,15,scheduled_maintenance,Low
+542,16,1091,2025-04-15,Maintenance,3,scheduled_maintenance,Low
+543,39,215,2025-03-09,Delay,60,track_maintenance,High
+544,39,156,2025-03-07,Technical Failure,3,signal_failure,Low
+545,40,485,2025-03-21,Technical Failure,52,technical_fault,High
+546,35,1000,2025-04-11,Overcrowding,16,signal_failure,High
+547,61,413,2025-03-18,Technical Failure,3,technical_fault,Low
+548,27,130,2025-03-06,Power Outage,30,track_maintenance,Low
+549,42,811,2025-04-03,Delay,3,power_issue,Medium
+550,27,1402,2025-04-28,Overcrowding,6,technical_fault,High
+551,5,559,2025-03-24,Signal Problem,3,track_maintenance,Low
+552,36,729,2025-03-31,Maintenance,5,power_issue,Medium
+553,45,569,2025-03-24,Overcrowding,3,signal_failure,Low
+554,17,1035,2025-04-13,Technical Failure,11,power_issue,Medium
+555,69,441,2025-03-19,Overcrowding,30,power_issue,Low
+556,36,646,2025-03-27,Technical Failure,45,track_maintenance,Low
+557,75,1046,2025-04-13,Technical Failure,3,signal_failure,Medium
+558,29,1004,2025-04-11,Maintenance,3,track_maintenance,Medium
+559,4,280,2025-03-12,Maintenance,3,power_issue,Low
+560,34,559,2025-03-24,Delay,13,power_issue,Low
+561,13,918,2025-04-08,Overcrowding,7,technical_fault,Low
+562,43,1439,2025-04-29,Technical Failure,3,signal_failure,High
+563,59,990,2025-04-11,Technical Failure,14,scheduled_maintenance,Low
+564,37,1435,2025-04-29,Power Outage,12,signal_failure,Low
+565,61,725,2025-03-31,Overcrowding,12,power_issue,Low
+566,50,65,2025-03-03,Signal Problem,6,scheduled_maintenance,Medium
+567,80,308,2025-03-13,Maintenance,4,overcrowding,Low
+568,53,620,2025-03-26,Power Outage,11,technical_fault,Low
+569,59,567,2025-03-24,Technical Failure,3,power_issue,High
+570,10,983,2025-04-10,Technical Failure,17,power_issue,Low
+571,14,785,2025-04-02,Delay,9,track_maintenance,Low
+572,24,230,2025-03-10,Delay,10,scheduled_maintenance,High
+573,50,1222,2025-04-20,Power Outage,19,signal_failure,Low
+574,62,318,2025-03-14,Power Outage,53,scheduled_maintenance,Low
+575,44,1279,2025-04-23,Power Outage,7,scheduled_maintenance,High
+576,16,663,2025-03-28,Delay,10,power_issue,Low
+577,12,845,2025-04-05,Maintenance,32,track_maintenance,Low
+578,15,1230,2025-04-21,Delay,11,overcrowding,Medium
+579,46,560,2025-03-24,Signal Problem,6,power_issue,Low
+580,30,1180,2025-04-19,Delay,16,overcrowding,Low
+581,26,932,2025-04-08,Delay,3,power_issue,Medium
+582,61,471,2025-03-20,Maintenance,5,track_maintenance,Medium
+583,72,823,2025-04-04,Signal Problem,3,signal_failure,Low
+584,9,233,2025-03-10,Power Outage,5,technical_fault,Low
+585,16,1263,2025-04-22,Technical Failure,34,scheduled_maintenance,Low
+586,44,1238,2025-04-21,Delay,3,scheduled_maintenance,Low
+587,78,377,2025-03-16,Delay,43,track_maintenance,High
+588,23,568,2025-03-24,Signal Problem,8,overcrowding,Low
+589,28,1024,2025-04-12,Overcrowding,16,scheduled_maintenance,Low
+590,79,431,2025-03-18,Technical Failure,7,power_issue,High
+591,80,214,2025-03-09,Signal Problem,13,signal_failure,Medium
+592,73,1304,2025-04-24,Signal Problem,22,scheduled_maintenance,Low
+593,66,1097,2025-04-15,Technical Failure,31,overcrowding,Low
+594,42,207,2025-03-09,Power Outage,14,scheduled_maintenance,Medium
+595,27,647,2025-03-27,Signal Problem,7,technical_fault,Low
+596,65,416,2025-03-18,Maintenance,11,signal_failure,Medium
+597,63,984,2025-04-10,Delay,14,scheduled_maintenance,Low
+598,13,799,2025-04-03,Delay,3,track_maintenance,Medium
+599,40,923,2025-04-08,Signal Problem,68,power_issue,Low
+600,53,786,2025-04-02,Delay,66,power_issue,Medium
+601,64,1218,2025-04-20,Delay,15,overcrowding,Medium
+602,26,647,2025-03-27,Signal Problem,10,track_maintenance,Medium
+603,24,1151,2025-04-17,Technical Failure,36,overcrowding,Low
+604,64,1127,2025-04-16,Overcrowding,15,technical_fault,High
+605,34,146,2025-03-07,Overcrowding,3,track_maintenance,High
+606,80,479,2025-03-20,Overcrowding,3,technical_fault,Low
+607,29,589,2025-03-25,Technical Failure,17,technical_fault,Low
+608,13,245,2025-03-11,Overcrowding,3,technical_fault,Low
+609,33,46,2025-03-02,Delay,25,signal_failure,High
+610,1,1427,2025-04-29,Maintenance,3,power_issue,Low
+611,20,1283,2025-04-23,Technical Failure,36,scheduled_maintenance,Low
+612,54,1098,2025-04-15,Signal Problem,66,power_issue,Medium
+613,14,307,2025-03-13,Technical Failure,12,technical_fault,High
+614,45,705,2025-03-30,Power Outage,20,track_maintenance,Medium
+615,4,59,2025-03-03,Delay,83,signal_failure,Medium
+616,43,68,2025-03-03,Delay,19,technical_fault,Medium
+617,74,211,2025-03-09,Signal Problem,4,signal_failure,Low
+618,38,1361,2025-04-26,Technical Failure,60,scheduled_maintenance,Low
+619,10,1324,2025-04-25,Delay,51,scheduled_maintenance,Low
+620,66,649,2025-03-28,Technical Failure,46,technical_fault,Medium
+621,75,879,2025-04-06,Power Outage,3,power_issue,Low
+622,14,1416,2025-04-28,Technical Failure,4,scheduled_maintenance,Medium
+623,77,672,2025-03-28,Signal Problem,3,overcrowding,Low
+624,22,1399,2025-04-28,Power Outage,20,track_maintenance,Medium
+625,80,1430,2025-04-29,Technical Failure,62,signal_failure,Low
+626,4,309,2025-03-13,Delay,4,overcrowding,Low
+627,75,1109,2025-04-16,Maintenance,9,overcrowding,Low
+628,5,473,2025-03-20,Delay,30,track_maintenance,Medium
+629,8,196,2025-03-09,Signal Problem,11,power_issue,Low
+630,35,183,2025-03-08,Power Outage,36,scheduled_maintenance,Low
+631,44,71,2025-03-03,Power Outage,25,overcrowding,Low
+632,40,1231,2025-04-21,Signal Problem,23,technical_fault,Low
+633,8,685,2025-03-29,Power Outage,45,scheduled_maintenance,Medium
+634,34,697,2025-03-30,Technical Failure,11,technical_fault,Low
+635,38,857,2025-04-05,Delay,55,scheduled_maintenance,Low
+636,33,923,2025-04-08,Power Outage,17,track_maintenance,High
+637,67,972,2025-04-10,Maintenance,3,technical_fault,Medium
+638,5,636,2025-03-27,Signal Problem,12,technical_fault,Medium
+639,31,1010,2025-04-12,Technical Failure,18,track_maintenance,Medium
+640,17,646,2025-03-27,Power Outage,3,technical_fault,High
+641,58,224,2025-03-10,Delay,3,scheduled_maintenance,Low
+642,8,1129,2025-04-17,Delay,16,overcrowding,High
+643,31,754,2025-04-01,Signal Problem,3,technical_fault,Low
+644,44,441,2025-03-19,Delay,3,scheduled_maintenance,High
+645,19,687,2025-03-29,Maintenance,7,power_issue,Low
+646,32,800,2025-04-03,Signal Problem,3,track_maintenance,Medium
+647,61,1434,2025-04-29,Overcrowding,10,power_issue,Medium
+648,17,520,2025-03-22,Overcrowding,39,track_maintenance,Medium
+649,6,1271,2025-04-22,Delay,11,signal_failure,Low
+650,75,1164,2025-04-18,Overcrowding,55,scheduled_maintenance,Medium
+651,12,418,2025-03-18,Maintenance,3,track_maintenance,Low
+652,51,655,2025-03-28,Signal Problem,85,scheduled_maintenance,Low
+653,39,968,2025-04-10,Power Outage,22,scheduled_maintenance,Medium
+654,43,1389,2025-04-27,Signal Problem,26,track_maintenance,Low
+655,37,240,2025-03-10,Signal Problem,18,track_maintenance,Low
+656,14,169,2025-03-08,Signal Problem,6,overcrowding,Medium
+657,13,320,2025-03-14,Signal Problem,47,technical_fault,Low
+658,26,166,2025-03-07,Overcrowding,15,track_maintenance,Medium
+659,33,834,2025-04-04,Signal Problem,24,track_maintenance,Low
+660,12,994,2025-04-11,Maintenance,10,power_issue,Low
+661,30,528,2025-03-22,Power Outage,17,power_issue,High
+662,76,1249,2025-04-22,Delay,43,technical_fault,Medium
+663,36,550,2025-03-23,Overcrowding,31,technical_fault,Low
+664,9,492,2025-03-21,Maintenance,11,overcrowding,Low
+665,11,743,2025-03-31,Technical Failure,3,scheduled_maintenance,High
+666,75,725,2025-03-31,Technical Failure,17,overcrowding,High
+667,38,1258,2025-04-22,Delay,36,technical_fault,Medium
+668,68,209,2025-03-09,Signal Problem,3,overcrowding,Medium
+669,58,1187,2025-04-19,Power Outage,16,signal_failure,Medium
+670,11,561,2025-03-24,Delay,11,track_maintenance,Low
+671,58,376,2025-03-16,Technical Failure,3,overcrowding,Low
+672,39,1026,2025-04-12,Maintenance,9,track_maintenance,Medium
+673,44,496,2025-03-21,Delay,12,power_issue,Low
+674,22,1194,2025-04-19,Maintenance,14,technical_fault,Low
+675,77,946,2025-04-09,Technical Failure,7,signal_failure,Medium
+676,41,856,2025-04-05,Overcrowding,6,technical_fault,Low
+677,40,1061,2025-04-14,Technical Failure,6,track_maintenance,Low
+678,74,1088,2025-04-15,Technical Failure,59,scheduled_maintenance,Low
+679,44,1292,2025-04-23,Power Outage,16,power_issue,Medium
+680,42,425,2025-03-18,Technical Failure,3,technical_fault,Low
+681,46,609,2025-03-26,Technical Failure,37,overcrowding,Low
+682,79,998,2025-04-11,Delay,3,scheduled_maintenance,Low
+683,45,59,2025-03-03,Signal Problem,24,track_maintenance,Low
+684,21,469,2025-03-20,Maintenance,6,technical_fault,Low
+685,16,1366,2025-04-26,Power Outage,3,signal_failure,Low
+686,53,1296,2025-04-23,Technical Failure,10,power_issue,High
+687,9,681,2025-03-29,Power Outage,13,technical_fault,High
+688,44,656,2025-03-28,Delay,41,signal_failure,High
+689,14,1314,2025-04-24,Technical Failure,22,scheduled_maintenance,Medium
+690,63,1036,2025-04-13,Power Outage,4,overcrowding,Low
+691,8,777,2025-04-02,Power Outage,12,scheduled_maintenance,Medium
+692,10,734,2025-03-31,Overcrowding,21,track_maintenance,Low
+693,61,582,2025-03-25,Delay,11,overcrowding,Medium
+694,56,443,2025-03-19,Technical Failure,31,technical_fault,Medium
+695,4,907,2025-04-07,Delay,3,technical_fault,Low
+696,37,1236,2025-04-21,Delay,6,technical_fault,Low
+697,19,1411,2025-04-28,Signal Problem,4,overcrowding,Low
+698,6,1430,2025-04-29,Signal Problem,23,track_maintenance,Low
+699,71,185,2025-03-08,Signal Problem,21,signal_failure,Low
+700,37,1234,2025-04-21,Signal Problem,15,signal_failure,Low
