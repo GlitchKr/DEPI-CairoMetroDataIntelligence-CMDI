@@ -1,8 +1,0 @@
-zone_id,station_range,price_egp,version_date
-1,1–9,8,8/1/2024
-2,10–16,12,8/1/2024
-3,17–23,15,8/1/2024
-4,24+,20,8/1/2024
-5,monthly_subscription,150,8/1/2024
-6,quarterly_subscription,400,8/1/2024
-7,annual_subscription,1500,8/1/2024
