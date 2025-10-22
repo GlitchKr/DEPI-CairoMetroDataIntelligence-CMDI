@@ -1,0 +1,2759 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bdb749528f71b27368fcd2f81dc0699c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bdb749528f71b27368fcd2f81dc0699c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bdb749528f71b27368fcd2f81dc0699c = L.map(
+                "map_bdb749528f71b27368fcd2f81dc0699c",
+                {
+                    center: [30.046315000000003, 31.268318750000002],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_049ba3d38fd0bd77be30e52d4f3e9cde = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_049ba3d38fd0bd77be30e52d4f3e9cde.addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+            var marker_f84024bf20f652838b5b64a1628d6936 = L.marker(
+                [31.0461, 34.8516],
+                {
+}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+            var div_icon_6be901541ac38339315a000cbb07fb61 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 18px; color: red; font-weight: bold;\"\u003ePalestine\u003c/div\u003e",
+  "iconSize": [150, 36],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_f84024bf20f652838b5b64a1628d6936.setIcon(div_icon_6be901541ac38339315a000cbb07fb61);
+            
+    
+            var circle_marker_d25aad9dc59c11774fe6678b536647b7 = L.circleMarker(
+                [29.85, 31.3344],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_5356cbe0da833220bd4d93e2d08ef9db = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6d6aecfc4f962068aa911c724908832c = $(`<div id="html_6d6aecfc4f962068aa911c724908832c" style="width: 100.0%; height: 100.0%;">     <b>Helwan</b><br>     👥 Passengers: 14,265,754<br>     💰 Revenue: 179.75M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_5356cbe0da833220bd4d93e2d08ef9db.setContent(html_6d6aecfc4f962068aa911c724908832c);
+            
+        
+
+        circle_marker_d25aad9dc59c11774fe6678b536647b7.bindPopup(popup_5356cbe0da833220bd4d93e2d08ef9db)
+        ;
+
+        
+    
+    
+            circle_marker_d25aad9dc59c11774fe6678b536647b7.bindTooltip(
+                `<div>
+                     Helwan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d12dc990f2044de76e55dd2beef9bd6f = L.circleMarker(
+                [29.8617, 31.325],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_0e14a3cac8f85ce80640ff7e0b85979d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_44637f24bac84f49183d41d7923661f1 = $(`<div id="html_44637f24bac84f49183d41d7923661f1" style="width: 100.0%; height: 100.0%;">     <b>Ain Helwan</b><br>     👥 Passengers: 7,338,767<br>     💰 Revenue: 92.47M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_0e14a3cac8f85ce80640ff7e0b85979d.setContent(html_44637f24bac84f49183d41d7923661f1);
+            
+        
+
+        circle_marker_d12dc990f2044de76e55dd2beef9bd6f.bindPopup(popup_0e14a3cac8f85ce80640ff7e0b85979d)
+        ;
+
+        
+    
+    
+            circle_marker_d12dc990f2044de76e55dd2beef9bd6f.bindTooltip(
+                `<div>
+                     Ain Helwan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_53954a27b7d47631d39578b4309bc53e = L.circleMarker(
+                [29.8697, 31.3194],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_4519d9a3effdadccacbc751a972a89ee = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fe14238a10516b37f96a174b3414e8d8 = $(`<div id="html_fe14238a10516b37f96a174b3414e8d8" style="width: 100.0%; height: 100.0%;">     <b>Helwan University</b><br>     👥 Passengers: 55,637,083<br>     💰 Revenue: 701.03M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_4519d9a3effdadccacbc751a972a89ee.setContent(html_fe14238a10516b37f96a174b3414e8d8);
+            
+        
+
+        circle_marker_53954a27b7d47631d39578b4309bc53e.bindPopup(popup_4519d9a3effdadccacbc751a972a89ee)
+        ;
+
+        
+    
+    
+            circle_marker_53954a27b7d47631d39578b4309bc53e.bindTooltip(
+                `<div>
+                     Helwan University
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b8208f2ef97d0727d25cda9ed5a75caa = L.circleMarker(
+                [29.8792, 31.3139],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_ea8ada020611a5ac27683d8b458c1c5d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_640a9c85599b0ea93a6b5942f797a7c8 = $(`<div id="html_640a9c85599b0ea93a6b5942f797a7c8" style="width: 100.0%; height: 100.0%;">     <b>Wadi Hof</b><br>     👥 Passengers: 5,314,845<br>     💰 Revenue: 66.97M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_ea8ada020611a5ac27683d8b458c1c5d.setContent(html_640a9c85599b0ea93a6b5942f797a7c8);
+            
+        
+
+        circle_marker_b8208f2ef97d0727d25cda9ed5a75caa.bindPopup(popup_ea8ada020611a5ac27683d8b458c1c5d)
+        ;
+
+        
+    
+    
+            circle_marker_b8208f2ef97d0727d25cda9ed5a75caa.bindTooltip(
+                `<div>
+                     Wadi Hof
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1dcac29c82bf953d2dc4c6986fef503a = L.circleMarker(
+                [29.8972, 31.3047],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_9d4f50c2a2e8f03745563545ed3f480b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d7685b2afc00bcb181ef4ff068bd0855 = $(`<div id="html_d7685b2afc00bcb181ef4ff068bd0855" style="width: 100.0%; height: 100.0%;">     <b>Hadayek Helwan</b><br>     👥 Passengers: 11,213,907<br>     💰 Revenue: 141.30M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_9d4f50c2a2e8f03745563545ed3f480b.setContent(html_d7685b2afc00bcb181ef4ff068bd0855);
+            
+        
+
+        circle_marker_1dcac29c82bf953d2dc4c6986fef503a.bindPopup(popup_9d4f50c2a2e8f03745563545ed3f480b)
+        ;
+
+        
+    
+    
+            circle_marker_1dcac29c82bf953d2dc4c6986fef503a.bindTooltip(
+                `<div>
+                     Hadayek Helwan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_814f679c3595d8567d3ae214407caa14 = L.circleMarker(
+                [29.9056, 31.2997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_0ac9d38caae719ca40fd2521e9de4f12 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eda0d6a83291e5fc109fd8ec74b8c35b = $(`<div id="html_eda0d6a83291e5fc109fd8ec74b8c35b" style="width: 100.0%; height: 100.0%;">     <b>El Maasara</b><br>     👥 Passengers: 13,254,750<br>     💰 Revenue: 167.01M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_0ac9d38caae719ca40fd2521e9de4f12.setContent(html_eda0d6a83291e5fc109fd8ec74b8c35b);
+            
+        
+
+        circle_marker_814f679c3595d8567d3ae214407caa14.bindPopup(popup_0ac9d38caae719ca40fd2521e9de4f12)
+        ;
+
+        
+    
+    
+            circle_marker_814f679c3595d8567d3ae214407caa14.bindTooltip(
+                `<div>
+                     El Maasara
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6cc9c6d1ecf2b4156c10a18afe565111 = L.circleMarker(
+                [29.925, 31.2875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_1dcc04ceb68a66a41cf3ca952b547e79 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_90c299451416d5fa2c1b56614e8c8f3e = $(`<div id="html_90c299451416d5fa2c1b56614e8c8f3e" style="width: 100.0%; height: 100.0%;">     <b>Tura El Asmant</b><br>     👥 Passengers: 6,167,118<br>     💰 Revenue: 77.71M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_1dcc04ceb68a66a41cf3ca952b547e79.setContent(html_90c299451416d5fa2c1b56614e8c8f3e);
+            
+        
+
+        circle_marker_6cc9c6d1ecf2b4156c10a18afe565111.bindPopup(popup_1dcc04ceb68a66a41cf3ca952b547e79)
+        ;
+
+        
+    
+    
+            circle_marker_6cc9c6d1ecf2b4156c10a18afe565111.bindTooltip(
+                `<div>
+                     Tura El Asmant
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cf5e6656cd4ee9389b266ebd74127163 = L.circleMarker(
+                [29.9361, 31.2808],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_c0d28602ec9e25c5dcacfbd5b866b9a2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8dba2b1f60c81b1f79a26ad28f66068d = $(`<div id="html_8dba2b1f60c81b1f79a26ad28f66068d" style="width: 100.0%; height: 100.0%;">     <b>Kozzika</b><br>     👥 Passengers: 4,752,028<br>     💰 Revenue: 59.88M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_c0d28602ec9e25c5dcacfbd5b866b9a2.setContent(html_8dba2b1f60c81b1f79a26ad28f66068d);
+            
+        
+
+        circle_marker_cf5e6656cd4ee9389b266ebd74127163.bindPopup(popup_c0d28602ec9e25c5dcacfbd5b866b9a2)
+        ;
+
+        
+    
+    
+            circle_marker_cf5e6656cd4ee9389b266ebd74127163.bindTooltip(
+                `<div>
+                     Kozzika
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ec62c7f0d70a3eaa45660c0283706ea6 = L.circleMarker(
+                [29.9472, 31.2742],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_f767cce131ff910dc2df0a6584085dfa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_be9ed6b1b210475ed287ad6c1364b631 = $(`<div id="html_be9ed6b1b210475ed287ad6c1364b631" style="width: 100.0%; height: 100.0%;">     <b>Tura El Balad</b><br>     👥 Passengers: 9,665,177<br>     💰 Revenue: 121.78M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_f767cce131ff910dc2df0a6584085dfa.setContent(html_be9ed6b1b210475ed287ad6c1364b631);
+            
+        
+
+        circle_marker_ec62c7f0d70a3eaa45660c0283706ea6.bindPopup(popup_f767cce131ff910dc2df0a6584085dfa)
+        ;
+
+        
+    
+    
+            circle_marker_ec62c7f0d70a3eaa45660c0283706ea6.bindTooltip(
+                `<div>
+                     Tura El Balad
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_df4707db6ed539aaaad3cf5314c6e849 = L.circleMarker(
+                [29.9583, 31.2675],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_a6e6bd7eb3aa90f41c0c078ea681a6fa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_729403470265ab79dd8d957ed44869bb = $(`<div id="html_729403470265ab79dd8d957ed44869bb" style="width: 100.0%; height: 100.0%;">     <b>Sakanat El Maadi</b><br>     👥 Passengers: 5,905,720<br>     💰 Revenue: 74.41M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_a6e6bd7eb3aa90f41c0c078ea681a6fa.setContent(html_729403470265ab79dd8d957ed44869bb);
+            
+        
+
+        circle_marker_df4707db6ed539aaaad3cf5314c6e849.bindPopup(popup_a6e6bd7eb3aa90f41c0c078ea681a6fa)
+        ;
+
+        
+    
+    
+            circle_marker_df4707db6ed539aaaad3cf5314c6e849.bindTooltip(
+                `<div>
+                     Sakanat El Maadi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_55dad97069c05b50e15fbc347bd35639 = L.circleMarker(
+                [29.9611, 31.2567],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_cee9ef22b2cdce51506e6e36d38fb3d9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_efdec69096bf610429bd08f2037be73b = $(`<div id="html_efdec69096bf610429bd08f2037be73b" style="width: 100.0%; height: 100.0%;">     <b>El Maadi</b><br>     👥 Passengers: 63,678,956<br>     💰 Revenue: 802.35M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_cee9ef22b2cdce51506e6e36d38fb3d9.setContent(html_efdec69096bf610429bd08f2037be73b);
+            
+        
+
+        circle_marker_55dad97069c05b50e15fbc347bd35639.bindPopup(popup_cee9ef22b2cdce51506e6e36d38fb3d9)
+        ;
+
+        
+    
+    
+            circle_marker_55dad97069c05b50e15fbc347bd35639.bindTooltip(
+                `<div>
+                     El Maadi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fb8850610e96641e1d9d007dc9dd52b5 = L.circleMarker(
+                [29.97, 31.2506],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_f93f3e330fa092e54962dc5526af448f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a0df27265680b27cc5197d62744df0b9 = $(`<div id="html_a0df27265680b27cc5197d62744df0b9" style="width: 100.0%; height: 100.0%;">     <b>Hadayek El Maadi</b><br>     👥 Passengers: 33,504,684<br>     💰 Revenue: 422.16M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_f93f3e330fa092e54962dc5526af448f.setContent(html_a0df27265680b27cc5197d62744df0b9);
+            
+        
+
+        circle_marker_fb8850610e96641e1d9d007dc9dd52b5.bindPopup(popup_f93f3e330fa092e54962dc5526af448f)
+        ;
+
+        
+    
+    
+            circle_marker_fb8850610e96641e1d9d007dc9dd52b5.bindTooltip(
+                `<div>
+                     Hadayek El Maadi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9a34f298fc18fbe9e0b53d5920b49b78 = L.circleMarker(
+                [29.9819, 31.2419],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_aeb50c992e921c3b41d8002cb13c5b50 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0e2fabd5e49661cd1a49753976d2c2c7 = $(`<div id="html_0e2fabd5e49661cd1a49753976d2c2c7" style="width: 100.0%; height: 100.0%;">     <b>Dar El Salam</b><br>     👥 Passengers: 41,365,089<br>     💰 Revenue: 521.20M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_aeb50c992e921c3b41d8002cb13c5b50.setContent(html_0e2fabd5e49661cd1a49753976d2c2c7);
+            
+        
+
+        circle_marker_9a34f298fc18fbe9e0b53d5920b49b78.bindPopup(popup_aeb50c992e921c3b41d8002cb13c5b50)
+        ;
+
+        
+    
+    
+            circle_marker_9a34f298fc18fbe9e0b53d5920b49b78.bindTooltip(
+                `<div>
+                     Dar El Salam
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ea923befa977d1dac50460bf23b5390f = L.circleMarker(
+                [29.995, 31.2314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_0f390ecb8fc991d14752596e9605f093 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8c1aece2dfac7d67c942c22db967df24 = $(`<div id="html_8c1aece2dfac7d67c942c22db967df24" style="width: 100.0%; height: 100.0%;">     <b>El Zahra</b><br>     👥 Passengers: 17,382,570<br>     💰 Revenue: 219.02M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_0f390ecb8fc991d14752596e9605f093.setContent(html_8c1aece2dfac7d67c942c22db967df24);
+            
+        
+
+        circle_marker_ea923befa977d1dac50460bf23b5390f.bindPopup(popup_0f390ecb8fc991d14752596e9605f093)
+        ;
+
+        
+    
+    
+            circle_marker_ea923befa977d1dac50460bf23b5390f.bindTooltip(
+                `<div>
+                     El Zahra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8f999498557ee61de76c2ca9ac0a862c = L.circleMarker(
+                [30.0061, 31.2297],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_7b7346dc168afb2e12fbd44d42c6ea0e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d34355145256f669d9fe0a85ee79aafa = $(`<div id="html_d34355145256f669d9fe0a85ee79aafa" style="width: 100.0%; height: 100.0%;">     <b>Mar Girgis</b><br>     👥 Passengers: 35,068,914<br>     💰 Revenue: 441.87M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_7b7346dc168afb2e12fbd44d42c6ea0e.setContent(html_d34355145256f669d9fe0a85ee79aafa);
+            
+        
+
+        circle_marker_8f999498557ee61de76c2ca9ac0a862c.bindPopup(popup_7b7346dc168afb2e12fbd44d42c6ea0e)
+        ;
+
+        
+    
+    
+            circle_marker_8f999498557ee61de76c2ca9ac0a862c.bindTooltip(
+                `<div>
+                     Mar Girgis
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_93a087f26789855fcd17dae97e1e3169 = L.circleMarker(
+                [30.0181, 31.2364],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_e92cd28755b60814b6cc7ad8d21dedc9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7c697d7b16f10d49da3f79ddc916789e = $(`<div id="html_7c697d7b16f10d49da3f79ddc916789e" style="width: 100.0%; height: 100.0%;">     <b>El Malek El Saleh</b><br>     👥 Passengers: 55,862,144<br>     💰 Revenue: 703.86M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_e92cd28755b60814b6cc7ad8d21dedc9.setContent(html_7c697d7b16f10d49da3f79ddc916789e);
+            
+        
+
+        circle_marker_93a087f26789855fcd17dae97e1e3169.bindPopup(popup_e92cd28755b60814b6cc7ad8d21dedc9)
+        ;
+
+        
+    
+    
+            circle_marker_93a087f26789855fcd17dae97e1e3169.bindTooltip(
+                `<div>
+                     El Malek El Saleh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a4ace00cefaec10d6930bc70746710ff = L.circleMarker(
+                [30.0292, 31.2431],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_241ad1a31b488ec4a594d9e12bb6ce06 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0a66592499991465dc01ce0c3500fb25 = $(`<div id="html_0a66592499991465dc01ce0c3500fb25" style="width: 100.0%; height: 100.0%;">     <b>Sayeda Zeinab</b><br>     👥 Passengers: 71,574,291<br>     💰 Revenue: 901.84M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_241ad1a31b488ec4a594d9e12bb6ce06.setContent(html_0a66592499991465dc01ce0c3500fb25);
+            
+        
+
+        circle_marker_a4ace00cefaec10d6930bc70746710ff.bindPopup(popup_241ad1a31b488ec4a594d9e12bb6ce06)
+        ;
+
+        
+    
+    
+            circle_marker_a4ace00cefaec10d6930bc70746710ff.bindTooltip(
+                `<div>
+                     Sayeda Zeinab
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c9a318f23b071fe46c4a4f52271d8b51 = L.circleMarker(
+                [30.0372, 31.2381],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_8687200825c0eb5907944dc72b07cbae = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4db631e60836ef659ad349322f239ce9 = $(`<div id="html_4db631e60836ef659ad349322f239ce9" style="width: 100.0%; height: 100.0%;">     <b>Saad Zaghloul</b><br>     👥 Passengers: 63,789,260<br>     💰 Revenue: 803.74M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_8687200825c0eb5907944dc72b07cbae.setContent(html_4db631e60836ef659ad349322f239ce9);
+            
+        
+
+        circle_marker_c9a318f23b071fe46c4a4f52271d8b51.bindPopup(popup_8687200825c0eb5907944dc72b07cbae)
+        ;
+
+        
+    
+    
+            circle_marker_c9a318f23b071fe46c4a4f52271d8b51.bindTooltip(
+                `<div>
+                     Saad Zaghloul
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_554b400241da137bfb61e49dc273d35e = L.circleMarker(
+                [30.0567, 31.2422],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_58a205c7fb8cdd71113576748ee972a5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e80e7f88c2d22e6ca89bd43b5717945b = $(`<div id="html_e80e7f88c2d22e6ca89bd43b5717945b" style="width: 100.0%; height: 100.0%;">     <b>Orabi</b><br>     👥 Passengers: 39,885,907<br>     💰 Revenue: 502.56M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_58a205c7fb8cdd71113576748ee972a5.setContent(html_e80e7f88c2d22e6ca89bd43b5717945b);
+            
+        
+
+        circle_marker_554b400241da137bfb61e49dc273d35e.bindPopup(popup_58a205c7fb8cdd71113576748ee972a5)
+        ;
+
+        
+    
+    
+            circle_marker_554b400241da137bfb61e49dc273d35e.bindTooltip(
+                `<div>
+                     Orabi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4781802ba367d04a29ac9fa298e4491b = L.circleMarker(
+                [30.0689, 31.2644],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_13fda52546c13bfeba9b1ca9554b1e97 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_697e9ddbc5d3d6244b78782c12f22995 = $(`<div id="html_697e9ddbc5d3d6244b78782c12f22995" style="width: 100.0%; height: 100.0%;">     <b>Ghamra</b><br>     👥 Passengers: 67,947,935<br>     💰 Revenue: 856.14M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_13fda52546c13bfeba9b1ca9554b1e97.setContent(html_697e9ddbc5d3d6244b78782c12f22995);
+            
+        
+
+        circle_marker_4781802ba367d04a29ac9fa298e4491b.bindPopup(popup_13fda52546c13bfeba9b1ca9554b1e97)
+        ;
+
+        
+    
+    
+            circle_marker_4781802ba367d04a29ac9fa298e4491b.bindTooltip(
+                `<div>
+                     Ghamra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_94905ea8e592802c90e986bed39cb784 = L.circleMarker(
+                [30.0772, 31.2778],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_db09b6fafd0de5fd7bbc6666d8cfb5b7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ba6f7e1f9dea87cfa444eb91ac51e23d = $(`<div id="html_ba6f7e1f9dea87cfa444eb91ac51e23d" style="width: 100.0%; height: 100.0%;">     <b>El Demerdash</b><br>     👥 Passengers: 57,743,518<br>     💰 Revenue: 727.57M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_db09b6fafd0de5fd7bbc6666d8cfb5b7.setContent(html_ba6f7e1f9dea87cfa444eb91ac51e23d);
+            
+        
+
+        circle_marker_94905ea8e592802c90e986bed39cb784.bindPopup(popup_db09b6fafd0de5fd7bbc6666d8cfb5b7)
+        ;
+
+        
+    
+    
+            circle_marker_94905ea8e592802c90e986bed39cb784.bindTooltip(
+                `<div>
+                     El Demerdash
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_126ed14e0d595e9a5b639e7a36414bb0 = L.circleMarker(
+                [30.0817, 31.2883],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_45e5567a2198e82cbf0ee77ea8162c1e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e7c145d27335e769b0cb07e8c842854f = $(`<div id="html_e7c145d27335e769b0cb07e8c842854f" style="width: 100.0%; height: 100.0%;">     <b>Manshiet El Sadr</b><br>     👥 Passengers: 18,382,165<br>     💰 Revenue: 231.62M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_45e5567a2198e82cbf0ee77ea8162c1e.setContent(html_e7c145d27335e769b0cb07e8c842854f);
+            
+        
+
+        circle_marker_126ed14e0d595e9a5b639e7a36414bb0.bindPopup(popup_45e5567a2198e82cbf0ee77ea8162c1e)
+        ;
+
+        
+    
+    
+            circle_marker_126ed14e0d595e9a5b639e7a36414bb0.bindTooltip(
+                `<div>
+                     Manshiet El Sadr
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4afafa43fef001cf4e0a2532ef190800 = L.circleMarker(
+                [30.0883, 31.2944],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_dd20d6c276737decc869329f10b816ad = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3552af62dba36d8cd7d0b0aafb1ede31 = $(`<div id="html_3552af62dba36d8cd7d0b0aafb1ede31" style="width: 100.0%; height: 100.0%;">     <b>Kobri El Qobba</b><br>     👥 Passengers: 20,383,219<br>     💰 Revenue: 256.83M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_dd20d6c276737decc869329f10b816ad.setContent(html_3552af62dba36d8cd7d0b0aafb1ede31);
+            
+        
+
+        circle_marker_4afafa43fef001cf4e0a2532ef190800.bindPopup(popup_dd20d6c276737decc869329f10b816ad)
+        ;
+
+        
+    
+    
+            circle_marker_4afafa43fef001cf4e0a2532ef190800.bindTooltip(
+                `<div>
+                     Kobri El Qobba
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6a601f71415a25dcf5c9f1fc9da2c6bd = L.circleMarker(
+                [30.095, 31.3],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_cdbf384b986d87669e2bf6fad56636c4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_90c96771bc702286b8d82777db25decd = $(`<div id="html_90c96771bc702286b8d82777db25decd" style="width: 100.0%; height: 100.0%;">     <b>Hammamat El Qobba</b><br>     👥 Passengers: 16,255,324<br>     💰 Revenue: 204.82M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_cdbf384b986d87669e2bf6fad56636c4.setContent(html_90c96771bc702286b8d82777db25decd);
+            
+        
+
+        circle_marker_6a601f71415a25dcf5c9f1fc9da2c6bd.bindPopup(popup_cdbf384b986d87669e2bf6fad56636c4)
+        ;
+
+        
+    
+    
+            circle_marker_6a601f71415a25dcf5c9f1fc9da2c6bd.bindTooltip(
+                `<div>
+                     Hammamat El Qobba
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f265291299a278007997bd8eaad097f6 = L.circleMarker(
+                [30.1017, 31.3056],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_6d770be220dd4ba5ce468f20e056df76 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_274557b3b0b87728c07fb1bef5fc3ab7 = $(`<div id="html_274557b3b0b87728c07fb1bef5fc3ab7" style="width: 100.0%; height: 100.0%;">     <b>Saray El Qobba</b><br>     👥 Passengers: 14,280,242<br>     💰 Revenue: 179.93M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_6d770be220dd4ba5ce468f20e056df76.setContent(html_274557b3b0b87728c07fb1bef5fc3ab7);
+            
+        
+
+        circle_marker_f265291299a278007997bd8eaad097f6.bindPopup(popup_6d770be220dd4ba5ce468f20e056df76)
+        ;
+
+        
+    
+    
+            circle_marker_f265291299a278007997bd8eaad097f6.bindTooltip(
+                `<div>
+                     Saray El Qobba
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ab6ce676249e1ecfa8eedbb82772efd7 = L.circleMarker(
+                [30.1083, 31.3111],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_25da85371588bfbe9fa09c50dce7c4f9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_80b01d3a3ab21d0ce9c401810c0a6cf6 = $(`<div id="html_80b01d3a3ab21d0ce9c401810c0a6cf6" style="width: 100.0%; height: 100.0%;">     <b>Hadayek El Zaitoun</b><br>     👥 Passengers: 18,449,103<br>     💰 Revenue: 232.46M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_25da85371588bfbe9fa09c50dce7c4f9.setContent(html_80b01d3a3ab21d0ce9c401810c0a6cf6);
+            
+        
+
+        circle_marker_ab6ce676249e1ecfa8eedbb82772efd7.bindPopup(popup_25da85371588bfbe9fa09c50dce7c4f9)
+        ;
+
+        
+    
+    
+            circle_marker_ab6ce676249e1ecfa8eedbb82772efd7.bindTooltip(
+                `<div>
+                     Hadayek El Zaitoun
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_98b6ed4b43c29f9e18d0f6c433dce42c = L.circleMarker(
+                [30.115, 31.3167],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_2fdf785526035f06163d5d9cdbd074f9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ec90e3c5f92584579043bf442ce3f18a = $(`<div id="html_ec90e3c5f92584579043bf442ce3f18a" style="width: 100.0%; height: 100.0%;">     <b>Helmeyet El Zaitoun</b><br>     👥 Passengers: 26,875,731<br>     💰 Revenue: 338.63M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_2fdf785526035f06163d5d9cdbd074f9.setContent(html_ec90e3c5f92584579043bf442ce3f18a);
+            
+        
+
+        circle_marker_98b6ed4b43c29f9e18d0f6c433dce42c.bindPopup(popup_2fdf785526035f06163d5d9cdbd074f9)
+        ;
+
+        
+    
+    
+            circle_marker_98b6ed4b43c29f9e18d0f6c433dce42c.bindTooltip(
+                `<div>
+                     Helmeyet El Zaitoun
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ead8a5ebe4ca3b3ef454b45f6b9d42d0 = L.circleMarker(
+                [30.1217, 31.3222],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_6e4f830ac4a054dcbe35f9b155ed9935 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_23c46ead4973564899ed3267545039dc = $(`<div id="html_23c46ead4973564899ed3267545039dc" style="width: 100.0%; height: 100.0%;">     <b>El Matareyya</b><br>     👥 Passengers: 20,409,333<br>     💰 Revenue: 257.16M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_6e4f830ac4a054dcbe35f9b155ed9935.setContent(html_23c46ead4973564899ed3267545039dc);
+            
+        
+
+        circle_marker_ead8a5ebe4ca3b3ef454b45f6b9d42d0.bindPopup(popup_6e4f830ac4a054dcbe35f9b155ed9935)
+        ;
+
+        
+    
+    
+            circle_marker_ead8a5ebe4ca3b3ef454b45f6b9d42d0.bindTooltip(
+                `<div>
+                     El Matareyya
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b436b9aef43d5b27c06fc7b0416b3245 = L.circleMarker(
+                [30.1311, 31.3194],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_98bd1a01e2b8de05e8622646de7773a6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_19f7b5c08bc3fa7edc5986d7447c3623 = $(`<div id="html_19f7b5c08bc3fa7edc5986d7447c3623" style="width: 100.0%; height: 100.0%;">     <b>Ain Shams</b><br>     👥 Passengers: 55,880,706<br>     💰 Revenue: 704.10M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_98bd1a01e2b8de05e8622646de7773a6.setContent(html_19f7b5c08bc3fa7edc5986d7447c3623);
+            
+        
+
+        circle_marker_b436b9aef43d5b27c06fc7b0416b3245.bindPopup(popup_98bd1a01e2b8de05e8622646de7773a6)
+        ;
+
+        
+    
+    
+            circle_marker_b436b9aef43d5b27c06fc7b0416b3245.bindTooltip(
+                `<div>
+                     Ain Shams
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fe64dc9161e71ea655027fb88e2be4ae = L.circleMarker(
+                [30.1394, 31.3167],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_cec1fbe149a578f677865d1882449a3a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a5d66ec953b5b02af9a943c0c1bb5a45 = $(`<div id="html_a5d66ec953b5b02af9a943c0c1bb5a45" style="width: 100.0%; height: 100.0%;">     <b>Ezbet El Nakhl</b><br>     👥 Passengers: 17,328,672<br>     💰 Revenue: 218.34M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_cec1fbe149a578f677865d1882449a3a.setContent(html_a5d66ec953b5b02af9a943c0c1bb5a45);
+            
+        
+
+        circle_marker_fe64dc9161e71ea655027fb88e2be4ae.bindPopup(popup_cec1fbe149a578f677865d1882449a3a)
+        ;
+
+        
+    
+    
+            circle_marker_fe64dc9161e71ea655027fb88e2be4ae.bindTooltip(
+                `<div>
+                     Ezbet El Nakhl
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a2d26154f396448203d6ac7ede6897f0 = L.circleMarker(
+                [30.165, 31.3361],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_8577513d6dfb7c4db55a0370361ca1b2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b4ceda6ff34f7f95f4b15c2ab44112d0 = $(`<div id="html_b4ceda6ff34f7f95f4b15c2ab44112d0" style="width: 100.0%; height: 100.0%;">     <b>El Marg</b><br>     👥 Passengers: 32,032,073<br>     💰 Revenue: 403.60M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_8577513d6dfb7c4db55a0370361ca1b2.setContent(html_b4ceda6ff34f7f95f4b15c2ab44112d0);
+            
+        
+
+        circle_marker_a2d26154f396448203d6ac7ede6897f0.bindPopup(popup_8577513d6dfb7c4db55a0370361ca1b2)
+        ;
+
+        
+    
+    
+            circle_marker_a2d26154f396448203d6ac7ede6897f0.bindTooltip(
+                `<div>
+                     El Marg
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a50acfb49ebdd622ba87e816b5be7d07 = L.circleMarker(
+                [30.1794, 31.35],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_f68d2ccd0ef740cce06f14d2b74a14d2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_01413082cfbfa61a70adc253986a1e09 = $(`<div id="html_01413082cfbfa61a70adc253986a1e09" style="width: 100.0%; height: 100.0%;">     <b>New El Marg</b><br>     👥 Passengers: 25,622,821<br>     💰 Revenue: 322.85M EGP<br>     🚇 Line: Line1     </div>`)[0];
+                popup_f68d2ccd0ef740cce06f14d2b74a14d2.setContent(html_01413082cfbfa61a70adc253986a1e09);
+            
+        
+
+        circle_marker_a50acfb49ebdd622ba87e816b5be7d07.bindPopup(popup_f68d2ccd0ef740cce06f14d2b74a14d2)
+        ;
+
+        
+    
+    
+            circle_marker_a50acfb49ebdd622ba87e816b5be7d07.bindTooltip(
+                `<div>
+                     New El Marg
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6ed4247b4fd9b48af7808253d5d2a841 = L.circleMarker(
+                [29.9811, 31.2117],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_d1875c39dc4f03559a79f2e409248fec = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6c9b5e35dac494615ff5c4826df44b27 = $(`<div id="html_6c9b5e35dac494615ff5c4826df44b27" style="width: 100.0%; height: 100.0%;">     <b>El Mounib</b><br>     👥 Passengers: 63,953,609<br>     💰 Revenue: 805.82M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_d1875c39dc4f03559a79f2e409248fec.setContent(html_6c9b5e35dac494615ff5c4826df44b27);
+            
+        
+
+        circle_marker_6ed4247b4fd9b48af7808253d5d2a841.bindPopup(popup_d1875c39dc4f03559a79f2e409248fec)
+        ;
+
+        
+    
+    
+            circle_marker_6ed4247b4fd9b48af7808253d5d2a841.bindTooltip(
+                `<div>
+                     El Mounib
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a95d40e807fcd32adb4f05c80b8206ae = L.circleMarker(
+                [29.9956, 31.2089],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_323622d088c8d27013835ef3d5906848 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8c1dc111a2312c4c56077fc5e601215d = $(`<div id="html_8c1dc111a2312c4c56077fc5e601215d" style="width: 100.0%; height: 100.0%;">     <b>Sakiat Mekky</b><br>     👥 Passengers: 18,331,916<br>     💰 Revenue: 230.98M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_323622d088c8d27013835ef3d5906848.setContent(html_8c1dc111a2312c4c56077fc5e601215d);
+            
+        
+
+        circle_marker_a95d40e807fcd32adb4f05c80b8206ae.bindPopup(popup_323622d088c8d27013835ef3d5906848)
+        ;
+
+        
+    
+    
+            circle_marker_a95d40e807fcd32adb4f05c80b8206ae.bindTooltip(
+                `<div>
+                     Sakiat Mekky
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_140da9c6e7d987b83c5ac715eb0e7fa4 = L.circleMarker(
+                [30.01, 31.2061],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_78f0dc2682fa9000cad337b43c339b15 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1a8667642027d476a1ba29672daad0cc = $(`<div id="html_1a8667642027d476a1ba29672daad0cc" style="width: 100.0%; height: 100.0%;">     <b>Omm El Masryeen</b><br>     👥 Passengers: 16,309,268<br>     💰 Revenue: 205.50M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_78f0dc2682fa9000cad337b43c339b15.setContent(html_1a8667642027d476a1ba29672daad0cc);
+            
+        
+
+        circle_marker_140da9c6e7d987b83c5ac715eb0e7fa4.bindPopup(popup_78f0dc2682fa9000cad337b43c339b15)
+        ;
+
+        
+    
+    
+            circle_marker_140da9c6e7d987b83c5ac715eb0e7fa4.bindTooltip(
+                `<div>
+                     Omm El Masryeen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b2c23a7b56212f584967a4a6f033336d = L.circleMarker(
+                [30.0131, 31.2067],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_0434f99bb7d1d01910557b2b03146dd0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ecb7f93611780c18253c3e964ff4736e = $(`<div id="html_ecb7f93611780c18253c3e964ff4736e" style="width: 100.0%; height: 100.0%;">     <b>Giza</b><br>     👥 Passengers: 83,649,214<br>     💰 Revenue: 1053.98M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_0434f99bb7d1d01910557b2b03146dd0.setContent(html_ecb7f93611780c18253c3e964ff4736e);
+            
+        
+
+        circle_marker_b2c23a7b56212f584967a4a6f033336d.bindPopup(popup_0434f99bb7d1d01910557b2b03146dd0)
+        ;
+
+        
+    
+    
+            circle_marker_b2c23a7b56212f584967a4a6f033336d.bindTooltip(
+                `<div>
+                     Giza
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c7010999137fb14bd0980e1af9fa61d2 = L.circleMarker(
+                [30.0169, 31.2072],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_a9cf5e424f0b7e3950f2037cd6f8ac2e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e348a00fc85a0e3a75d00f84706ce435 = $(`<div id="html_e348a00fc85a0e3a75d00f84706ce435" style="width: 100.0%; height: 100.0%;">     <b>Faisal</b><br>     👥 Passengers: 75,741,356<br>     💰 Revenue: 954.34M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_a9cf5e424f0b7e3950f2037cd6f8ac2e.setContent(html_e348a00fc85a0e3a75d00f84706ce435);
+            
+        
+
+        circle_marker_c7010999137fb14bd0980e1af9fa61d2.bindPopup(popup_a9cf5e424f0b7e3950f2037cd6f8ac2e)
+        ;
+
+        
+    
+    
+            circle_marker_c7010999137fb14bd0980e1af9fa61d2.bindTooltip(
+                `<div>
+                     Faisal
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ce796ca870e5919521b85b2995e176e3 = L.circleMarker(
+                [30.0256, 31.2083],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_c8c3b0aa78cf5380d40b296847e8ec2c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8ba2bc78c262285a597f24e3482b976e = $(`<div id="html_8ba2bc78c262285a597f24e3482b976e" style="width: 100.0%; height: 100.0%;">     <b>Cairo University</b><br>     👥 Passengers: 103,971,131<br>     💰 Revenue: 1310.04M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_c8c3b0aa78cf5380d40b296847e8ec2c.setContent(html_8ba2bc78c262285a597f24e3482b976e);
+            
+        
+
+        circle_marker_ce796ca870e5919521b85b2995e176e3.bindPopup(popup_c8c3b0aa78cf5380d40b296847e8ec2c)
+        ;
+
+        
+    
+    
+            circle_marker_ce796ca870e5919521b85b2995e176e3.bindTooltip(
+                `<div>
+                     Cairo University
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_728a35fd00926463ad69f655b8643fb1 = L.circleMarker(
+                [30.0333, 31.2094],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_5563e59fd025632de4f7c5efd9bd8b1b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_deb76f9b839ef97ac0b48847e1f3c8da = $(`<div id="html_deb76f9b839ef97ac0b48847e1f3c8da" style="width: 100.0%; height: 100.0%;">     <b>El Bohoos</b><br>     👥 Passengers: 35,018,497<br>     💰 Revenue: 441.23M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_5563e59fd025632de4f7c5efd9bd8b1b.setContent(html_deb76f9b839ef97ac0b48847e1f3c8da);
+            
+        
+
+        circle_marker_728a35fd00926463ad69f655b8643fb1.bindPopup(popup_5563e59fd025632de4f7c5efd9bd8b1b)
+        ;
+
+        
+    
+    
+            circle_marker_728a35fd00926463ad69f655b8643fb1.bindTooltip(
+                `<div>
+                     El Bohoos
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2161476838baa2ef5688e8cf75e19030 = L.circleMarker(
+                [30.0386, 31.21],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_988bed02cd879abdd4b32f042d978b4e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bfe37b279d12c2c7086fcbe42fd61752 = $(`<div id="html_bfe37b279d12c2c7086fcbe42fd61752" style="width: 100.0%; height: 100.0%;">     <b>Dokki</b><br>     👥 Passengers: 89,467,196<br>     💰 Revenue: 1127.29M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_988bed02cd879abdd4b32f042d978b4e.setContent(html_bfe37b279d12c2c7086fcbe42fd61752);
+            
+        
+
+        circle_marker_2161476838baa2ef5688e8cf75e19030.bindPopup(popup_988bed02cd879abdd4b32f042d978b4e)
+        ;
+
+        
+    
+    
+            circle_marker_2161476838baa2ef5688e8cf75e19030.bindTooltip(
+                `<div>
+                     Dokki
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bef7111776e1d73ca505fc0f5e945faf = L.circleMarker(
+                [30.0422, 31.2247],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_0a1e1f4756fa6c16c24f4821f50badc2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4f7181ceea542b3dd071dc7fa02735e4 = $(`<div id="html_4f7181ceea542b3dd071dc7fa02735e4" style="width: 100.0%; height: 100.0%;">     <b>Opera</b><br>     👥 Passengers: 75,654,841<br>     💰 Revenue: 953.25M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_0a1e1f4756fa6c16c24f4821f50badc2.setContent(html_4f7181ceea542b3dd071dc7fa02735e4);
+            
+        
+
+        circle_marker_bef7111776e1d73ca505fc0f5e945faf.bindPopup(popup_0a1e1f4756fa6c16c24f4821f50badc2)
+        ;
+
+        
+    
+    
+            circle_marker_bef7111776e1d73ca505fc0f5e945faf.bindTooltip(
+                `<div>
+                     Opera
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7cb578927f0bacf50247e2492c4c86ef = L.circleMarker(
+                [30.0489, 31.2436],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_9b3332fda3bd2a9f7b6e6ffb79bf1ac9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_df49038a41a1a0624803e3dc780ac170 = $(`<div id="html_df49038a41a1a0624803e3dc780ac170" style="width: 100.0%; height: 100.0%;">     <b>Mohamed Naguib</b><br>     👥 Passengers: 44,586,458<br>     💰 Revenue: 561.79M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_9b3332fda3bd2a9f7b6e6ffb79bf1ac9.setContent(html_df49038a41a1a0624803e3dc780ac170);
+            
+        
+
+        circle_marker_7cb578927f0bacf50247e2492c4c86ef.bindPopup(popup_9b3332fda3bd2a9f7b6e6ffb79bf1ac9)
+        ;
+
+        
+    
+    
+            circle_marker_7cb578927f0bacf50247e2492c4c86ef.bindTooltip(
+                `<div>
+                     Mohamed Naguib
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ad243c1e003909880facbaca3dbcb59c = L.circleMarker(
+                [30.0711, 31.2403],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_25377cc09bd34e9b58153d098609fb55 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e12d6c7a74769bcb6bd319d47301cfe9 = $(`<div id="html_e12d6c7a74769bcb6bd319d47301cfe9" style="width: 100.0%; height: 100.0%;">     <b>Masarra</b><br>     👥 Passengers: 30,749,474<br>     💰 Revenue: 387.44M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_25377cc09bd34e9b58153d098609fb55.setContent(html_e12d6c7a74769bcb6bd319d47301cfe9);
+            
+        
+
+        circle_marker_ad243c1e003909880facbaca3dbcb59c.bindPopup(popup_25377cc09bd34e9b58153d098609fb55)
+        ;
+
+        
+    
+    
+            circle_marker_ad243c1e003909880facbaca3dbcb59c.bindTooltip(
+                `<div>
+                     Masarra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fd5a106f2fb2d25b26ad687d6ae96461 = L.circleMarker(
+                [30.0806, 31.2344],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_1cb69cf29950399308a454d902f1e6ad = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b8e7373e00da7842f0949b37cec7a5af = $(`<div id="html_b8e7373e00da7842f0949b37cec7a5af" style="width: 100.0%; height: 100.0%;">     <b>Road El Farag</b><br>     👥 Passengers: 49,046,769<br>     💰 Revenue: 617.99M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_1cb69cf29950399308a454d902f1e6ad.setContent(html_b8e7373e00da7842f0949b37cec7a5af);
+            
+        
+
+        circle_marker_fd5a106f2fb2d25b26ad687d6ae96461.bindPopup(popup_1cb69cf29950399308a454d902f1e6ad)
+        ;
+
+        
+    
+    
+            circle_marker_fd5a106f2fb2d25b26ad687d6ae96461.bindTooltip(
+                `<div>
+                     Road El Farag
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_84027574ca4c6507ddc0124bf0d9671c = L.circleMarker(
+                [30.0883, 31.2306],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_f766c40eb54697bff8f3cfee214d5af6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_987ab0f7d6f09e7f21d70d0433d5a9fd = $(`<div id="html_987ab0f7d6f09e7f21d70d0433d5a9fd" style="width: 100.0%; height: 100.0%;">     <b>St. Teresa</b><br>     👥 Passengers: 20,488,818<br>     💰 Revenue: 258.16M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_f766c40eb54697bff8f3cfee214d5af6.setContent(html_987ab0f7d6f09e7f21d70d0433d5a9fd);
+            
+        
+
+        circle_marker_84027574ca4c6507ddc0124bf0d9671c.bindPopup(popup_f766c40eb54697bff8f3cfee214d5af6)
+        ;
+
+        
+    
+    
+            circle_marker_84027574ca4c6507ddc0124bf0d9671c.bindTooltip(
+                `<div>
+                     St. Teresa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2ed885a596d7e3de43077a1b754884fb = L.circleMarker(
+                [30.0961, 31.2267],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_1adc4b67084dadde39b616154b167246 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_10769460dd691716ced75675df452b2d = $(`<div id="html_10769460dd691716ced75675df452b2d" style="width: 100.0%; height: 100.0%;">     <b>Khalafawy</b><br>     👥 Passengers: 18,325,763<br>     💰 Revenue: 230.90M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_1adc4b67084dadde39b616154b167246.setContent(html_10769460dd691716ced75675df452b2d);
+            
+        
+
+        circle_marker_2ed885a596d7e3de43077a1b754884fb.bindPopup(popup_1adc4b67084dadde39b616154b167246)
+        ;
+
+        
+    
+    
+            circle_marker_2ed885a596d7e3de43077a1b754884fb.bindTooltip(
+                `<div>
+                     Khalafawy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_67cbe198056b0810b3fb63f72de327ca = L.circleMarker(
+                [30.1039, 31.2228],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_b3956486443b7c4003d3f2eab1248de8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_373197bc993d4468e059063ad6a881b0 = $(`<div id="html_373197bc993d4468e059063ad6a881b0" style="width: 100.0%; height: 100.0%;">     <b>Mezallat</b><br>     👥 Passengers: 16,322,506<br>     💰 Revenue: 205.66M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_b3956486443b7c4003d3f2eab1248de8.setContent(html_373197bc993d4468e059063ad6a881b0);
+            
+        
+
+        circle_marker_67cbe198056b0810b3fb63f72de327ca.bindPopup(popup_b3956486443b7c4003d3f2eab1248de8)
+        ;
+
+        
+    
+    
+            circle_marker_67cbe198056b0810b3fb63f72de327ca.bindTooltip(
+                `<div>
+                     Mezallat
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f5cbadf42ca182d0a16342ace7e6b933 = L.circleMarker(
+                [30.1117, 31.2189],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_fbca5dda7ec954474bdd0559cdc85fa5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2a7cc084b3fdc7caa99d4f9e2123170e = $(`<div id="html_2a7cc084b3fdc7caa99d4f9e2123170e" style="width: 100.0%; height: 100.0%;">     <b>Koliet El Zeraa</b><br>     👥 Passengers: 38,290,950<br>     💰 Revenue: 482.47M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_fbca5dda7ec954474bdd0559cdc85fa5.setContent(html_2a7cc084b3fdc7caa99d4f9e2123170e);
+            
+        
+
+        circle_marker_f5cbadf42ca182d0a16342ace7e6b933.bindPopup(popup_fbca5dda7ec954474bdd0559cdc85fa5)
+        ;
+
+        
+    
+    
+            circle_marker_f5cbadf42ca182d0a16342ace7e6b933.bindTooltip(
+                `<div>
+                     Koliet El Zeraa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d941144b49d36ac653201744328c83a2 = L.circleMarker(
+                [30.1222, 31.2144],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_7d49124b1b155e1b811064ebdd4d59c9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c0ecd8348f5931e908697ca2dff25d73 = $(`<div id="html_c0ecd8348f5931e908697ca2dff25d73" style="width: 100.0%; height: 100.0%;">     <b>Shubra El Kheima</b><br>     👥 Passengers: 75,796,389<br>     💰 Revenue: 955.03M EGP<br>     🚇 Line: Line2     </div>`)[0];
+                popup_7d49124b1b155e1b811064ebdd4d59c9.setContent(html_c0ecd8348f5931e908697ca2dff25d73);
+            
+        
+
+        circle_marker_d941144b49d36ac653201744328c83a2.bindPopup(popup_7d49124b1b155e1b811064ebdd4d59c9)
+        ;
+
+        
+    
+    
+            circle_marker_d941144b49d36ac653201744328c83a2.bindTooltip(
+                `<div>
+                     Shubra El Kheima
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6abf7270d9d08793b37de2e60f65b8df = L.circleMarker(
+                [30.1472, 31.4214],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_884011e70c7dc358e8d7c2f6483c7d3e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9e957129ba561d9cebd736a60482184b = $(`<div id="html_9e957129ba561d9cebd736a60482184b" style="width: 100.0%; height: 100.0%;">     <b>Adly Mansour</b><br>     👥 Passengers: 89,432,381<br>     💰 Revenue: 1126.85M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_884011e70c7dc358e8d7c2f6483c7d3e.setContent(html_9e957129ba561d9cebd736a60482184b);
+            
+        
+
+        circle_marker_6abf7270d9d08793b37de2e60f65b8df.bindPopup(popup_884011e70c7dc358e8d7c2f6483c7d3e)
+        ;
+
+        
+    
+    
+            circle_marker_6abf7270d9d08793b37de2e60f65b8df.bindTooltip(
+                `<div>
+                     Adly Mansour
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_44b00acb2b4e4cbc43271105ceb7ea33 = L.circleMarker(
+                [30.1439, 31.4053],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_8f3803b64963a0b82383b2c535e528c3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5b8394a7506070645abb430732c1d590 = $(`<div id="html_5b8394a7506070645abb430732c1d590" style="width: 100.0%; height: 100.0%;">     <b>El Haykestep</b><br>     👥 Passengers: 25,729,902<br>     💰 Revenue: 324.20M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_8f3803b64963a0b82383b2c535e528c3.setContent(html_5b8394a7506070645abb430732c1d590);
+            
+        
+
+        circle_marker_44b00acb2b4e4cbc43271105ceb7ea33.bindPopup(popup_8f3803b64963a0b82383b2c535e528c3)
+        ;
+
+        
+    
+    
+            circle_marker_44b00acb2b4e4cbc43271105ceb7ea33.bindTooltip(
+                `<div>
+                     El Haykestep
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7c28c2016e83f51aa790afbbfff3087d = L.circleMarker(
+                [30.1406, 31.3892],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_2454d3666f39eede505b598d23a9ce45 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c9774c951da1ce2bebc44ba3509fea09 = $(`<div id="html_c9774c951da1ce2bebc44ba3509fea09" style="width: 100.0%; height: 100.0%;">     <b>Omar Ibn El Khattab</b><br>     👥 Passengers: 41,492,270<br>     💰 Revenue: 522.80M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_2454d3666f39eede505b598d23a9ce45.setContent(html_c9774c951da1ce2bebc44ba3509fea09);
+            
+        
+
+        circle_marker_7c28c2016e83f51aa790afbbfff3087d.bindPopup(popup_2454d3666f39eede505b598d23a9ce45)
+        ;
+
+        
+    
+    
+            circle_marker_7c28c2016e83f51aa790afbbfff3087d.bindTooltip(
+                `<div>
+                     Omar Ibn El Khattab
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_91c7c98d9ec3fbd5d90bd9d783218d43 = L.circleMarker(
+                [30.1372, 31.3731],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_323caeadc39021b5ee98fa483aef82b3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c6d40cd566e18555b7c2da47e6aadb3c = $(`<div id="html_c6d40cd566e18555b7c2da47e6aadb3c" style="width: 100.0%; height: 100.0%;">     <b>Qobaa</b><br>     👥 Passengers: 19,400,453<br>     💰 Revenue: 244.45M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_323caeadc39021b5ee98fa483aef82b3.setContent(html_c6d40cd566e18555b7c2da47e6aadb3c);
+            
+        
+
+        circle_marker_91c7c98d9ec3fbd5d90bd9d783218d43.bindPopup(popup_323caeadc39021b5ee98fa483aef82b3)
+        ;
+
+        
+    
+    
+            circle_marker_91c7c98d9ec3fbd5d90bd9d783218d43.bindTooltip(
+                `<div>
+                     Qobaa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_be1a0bc7106ffb9c971404df140a244d = L.circleMarker(
+                [30.1339, 31.3569],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_cdef327d3348c14e02be4ebca3eac1a2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2cd7049da0b1bb56e28c9f94f3940cbf = $(`<div id="html_2cd7049da0b1bb56e28c9f94f3940cbf" style="width: 100.0%; height: 100.0%;">     <b>Hesham Barakat</b><br>     👥 Passengers: 17,299,193<br>     💰 Revenue: 217.97M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_cdef327d3348c14e02be4ebca3eac1a2.setContent(html_2cd7049da0b1bb56e28c9f94f3940cbf);
+            
+        
+
+        circle_marker_be1a0bc7106ffb9c971404df140a244d.bindPopup(popup_cdef327d3348c14e02be4ebca3eac1a2)
+        ;
+
+        
+    
+    
+            circle_marker_be1a0bc7106ffb9c971404df140a244d.bindTooltip(
+                `<div>
+                     Hesham Barakat
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e9aa49fea829fac1dc7973d91f55d932 = L.circleMarker(
+                [30.1306, 31.3408],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_0b220acf0bff7a2276277fdae66258f5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_049ecb10a302a9c72694d86549ff8610 = $(`<div id="html_049ecb10a302a9c72694d86549ff8610" style="width: 100.0%; height: 100.0%;">     <b>El Nozha</b><br>     👥 Passengers: 63,862,107<br>     💰 Revenue: 804.66M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_0b220acf0bff7a2276277fdae66258f5.setContent(html_049ecb10a302a9c72694d86549ff8610);
+            
+        
+
+        circle_marker_e9aa49fea829fac1dc7973d91f55d932.bindPopup(popup_0b220acf0bff7a2276277fdae66258f5)
+        ;
+
+        
+    
+    
+            circle_marker_e9aa49fea829fac1dc7973d91f55d932.bindTooltip(
+                `<div>
+                     El Nozha
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5fbd3706a7cfcd66aac3bedc9aaf6c8d = L.circleMarker(
+                [30.12, 31.3278],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_f348b289c44715ae357061e619d7bed1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fdc7895cbcff26c9fbca2338ac10038b = $(`<div id="html_fdc7895cbcff26c9fbca2338ac10038b" style="width: 100.0%; height: 100.0%;">     <b>Nadi El Shams</b><br>     👥 Passengers: 25,708,105<br>     💰 Revenue: 323.92M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_f348b289c44715ae357061e619d7bed1.setContent(html_fdc7895cbcff26c9fbca2338ac10038b);
+            
+        
+
+        circle_marker_5fbd3706a7cfcd66aac3bedc9aaf6c8d.bindPopup(popup_f348b289c44715ae357061e619d7bed1)
+        ;
+
+        
+    
+    
+            circle_marker_5fbd3706a7cfcd66aac3bedc9aaf6c8d.bindTooltip(
+                `<div>
+                     Nadi El Shams
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cadfe17b1ff906f8171670428a1058db = L.circleMarker(
+                [30.1094, 31.3147],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_bef2ddd81a323a2fc1bf84c96bc472cf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_59b1c27839d25263e0132c96c509d59e = $(`<div id="html_59b1c27839d25263e0132c96c509d59e" style="width: 100.0%; height: 100.0%;">     <b>Alf Maskan</b><br>     👥 Passengers: 34,314,574<br>     💰 Revenue: 432.36M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_bef2ddd81a323a2fc1bf84c96bc472cf.setContent(html_59b1c27839d25263e0132c96c509d59e);
+            
+        
+
+        circle_marker_cadfe17b1ff906f8171670428a1058db.bindPopup(popup_bef2ddd81a323a2fc1bf84c96bc472cf)
+        ;
+
+        
+    
+    
+            circle_marker_cadfe17b1ff906f8171670428a1058db.bindTooltip(
+                `<div>
+                     Alf Maskan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_acb44b222ffa4911e95f74d70ef1c6cb = L.circleMarker(
+                [30.0944, 31.3058],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_fd14f90d14ae880f990c3bf95ea42c8d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0a466e93860ad6b7ed4d85cef95f93c9 = $(`<div id="html_0a466e93860ad6b7ed4d85cef95f93c9" style="width: 100.0%; height: 100.0%;">     <b>Heliopolis Square</b><br>     👥 Passengers: 75,882,442<br>     💰 Revenue: 956.12M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_fd14f90d14ae880f990c3bf95ea42c8d.setContent(html_0a466e93860ad6b7ed4d85cef95f93c9);
+            
+        
+
+        circle_marker_acb44b222ffa4911e95f74d70ef1c6cb.bindPopup(popup_fd14f90d14ae880f990c3bf95ea42c8d)
+        ;
+
+        
+    
+    
+            circle_marker_acb44b222ffa4911e95f74d70ef1c6cb.bindTooltip(
+                `<div>
+                     Heliopolis Square
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_388a093c6e0870e6a68a0d63d4a28c28 = L.circleMarker(
+                [30.0844, 31.3011],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_ccf03ab3147271989084cd1e8ccee9c8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_455aa61bd6e7828bd1bd67eeab9a58d0 = $(`<div id="html_455aa61bd6e7828bd1bd67eeab9a58d0" style="width: 100.0%; height: 100.0%;">     <b>Haroun</b><br>     👥 Passengers: 19,376,474<br>     💰 Revenue: 244.14M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_ccf03ab3147271989084cd1e8ccee9c8.setContent(html_455aa61bd6e7828bd1bd67eeab9a58d0);
+            
+        
+
+        circle_marker_388a093c6e0870e6a68a0d63d4a28c28.bindPopup(popup_ccf03ab3147271989084cd1e8ccee9c8)
+        ;
+
+        
+    
+    
+            circle_marker_388a093c6e0870e6a68a0d63d4a28c28.bindTooltip(
+                `<div>
+                     Haroun
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d6e6a734ff6e93759357c3bd17836a92 = L.circleMarker(
+                [30.0744, 31.2964],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_5b7980f1f9381796438e7b4bf791fd67 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c085a2d4fdbaafc51c04d31314e64b58 = $(`<div id="html_c085a2d4fdbaafc51c04d31314e64b58" style="width: 100.0%; height: 100.0%;">     <b>Al Ahram</b><br>     👥 Passengers: 38,174,392<br>     💰 Revenue: 481.00M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_5b7980f1f9381796438e7b4bf791fd67.setContent(html_c085a2d4fdbaafc51c04d31314e64b58);
+            
+        
+
+        circle_marker_d6e6a734ff6e93759357c3bd17836a92.bindPopup(popup_5b7980f1f9381796438e7b4bf791fd67)
+        ;
+
+        
+    
+    
+            circle_marker_d6e6a734ff6e93759357c3bd17836a92.bindTooltip(
+                `<div>
+                     Al Ahram
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d82fdb974ec2c91863b6f17dd9ff4511 = L.circleMarker(
+                [30.0644, 31.2917],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_bf3fcdcb2390564c7ca98cdb69c9a92c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b663ea20f38cc59e85ef97601ef9f179 = $(`<div id="html_b663ea20f38cc59e85ef97601ef9f179" style="width: 100.0%; height: 100.0%;">     <b>Koleyet El Banat</b><br>     👥 Passengers: 41,398,134<br>     💰 Revenue: 521.62M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_bf3fcdcb2390564c7ca98cdb69c9a92c.setContent(html_b663ea20f38cc59e85ef97601ef9f179);
+            
+        
+
+        circle_marker_d82fdb974ec2c91863b6f17dd9ff4511.bindPopup(popup_bf3fcdcb2390564c7ca98cdb69c9a92c)
+        ;
+
+        
+    
+    
+            circle_marker_d82fdb974ec2c91863b6f17dd9ff4511.bindTooltip(
+                `<div>
+                     Koleyet El Banat
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4be9b8b9d50a7d348f5be94ea7b866d3 = L.circleMarker(
+                [30.0544, 31.2869],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_16b1bd9361a21c2bd5dc2031edfe180e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a9b20651fb0be11b50f2809fd571efbb = $(`<div id="html_a9b20651fb0be11b50f2809fd571efbb" style="width: 100.0%; height: 100.0%;">     <b>Stadium</b><br>     👥 Passengers: 63,811,534<br>     💰 Revenue: 804.03M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_16b1bd9361a21c2bd5dc2031edfe180e.setContent(html_a9b20651fb0be11b50f2809fd571efbb);
+            
+        
+
+        circle_marker_4be9b8b9d50a7d348f5be94ea7b866d3.bindPopup(popup_16b1bd9361a21c2bd5dc2031edfe180e)
+        ;
+
+        
+    
+    
+            circle_marker_4be9b8b9d50a7d348f5be94ea7b866d3.bindTooltip(
+                `<div>
+                     Stadium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4d0c1dd955af491b066edf6d2b5eec3c = L.circleMarker(
+                [30.0444, 31.2822],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_9562b302a6088ae1ce2be54cea3708bb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eefbaf5ac862d963eba51f1005986188 = $(`<div id="html_eefbaf5ac862d963eba51f1005986188" style="width: 100.0%; height: 100.0%;">     <b>Fair Zone</b><br>     👥 Passengers: 35,025,006<br>     💰 Revenue: 441.32M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_9562b302a6088ae1ce2be54cea3708bb.setContent(html_eefbaf5ac862d963eba51f1005986188);
+            
+        
+
+        circle_marker_4d0c1dd955af491b066edf6d2b5eec3c.bindPopup(popup_9562b302a6088ae1ce2be54cea3708bb)
+        ;
+
+        
+    
+    
+            circle_marker_4d0c1dd955af491b066edf6d2b5eec3c.bindTooltip(
+                `<div>
+                     Fair Zone
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e745658c300d3fe1fe34387226458aaa = L.circleMarker(
+                [30.0644, 31.265],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_7f0d2443db1c0f5016fdb5ee356229f8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_14ddfc61f9a79a4e4f8bf185b937059f = $(`<div id="html_14ddfc61f9a79a4e4f8bf185b937059f" style="width: 100.0%; height: 100.0%;">     <b>Abbassia</b><br>     👥 Passengers: 77,510,802<br>     💰 Revenue: 976.64M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_7f0d2443db1c0f5016fdb5ee356229f8.setContent(html_14ddfc61f9a79a4e4f8bf185b937059f);
+            
+        
+
+        circle_marker_e745658c300d3fe1fe34387226458aaa.bindPopup(popup_7f0d2443db1c0f5016fdb5ee356229f8)
+        ;
+
+        
+    
+    
+            circle_marker_e745658c300d3fe1fe34387226458aaa.bindTooltip(
+                `<div>
+                     Abbassia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f7c6f396a13367b9313618629711e27f = L.circleMarker(
+                [30.0561, 31.2597],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_25f7188e956580a24b217e412a2b8975 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_258f1e0e6db0ec78fbce626ef81d8c7c = $(`<div id="html_258f1e0e6db0ec78fbce626ef81d8c7c" style="width: 100.0%; height: 100.0%;">     <b>Abdou Pasha</b><br>     👥 Passengers: 18,452,839<br>     💰 Revenue: 232.51M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_25f7188e956580a24b217e412a2b8975.setContent(html_258f1e0e6db0ec78fbce626ef81d8c7c);
+            
+        
+
+        circle_marker_f7c6f396a13367b9313618629711e27f.bindPopup(popup_25f7188e956580a24b217e412a2b8975)
+        ;
+
+        
+    
+    
+            circle_marker_f7c6f396a13367b9313618629711e27f.bindTooltip(
+                `<div>
+                     Abdou Pasha
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1b1c73269fe7ada10cf96547d8bad420 = L.circleMarker(
+                [30.0478, 31.2544],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_e0052f4f2619c54112b90e2d5ae62e64 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e830f9b7bb438c5f7ad0a4d079eb5520 = $(`<div id="html_e830f9b7bb438c5f7ad0a4d079eb5520" style="width: 100.0%; height: 100.0%;">     <b>El Geish</b><br>     👥 Passengers: 41,405,056<br>     💰 Revenue: 521.70M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_e0052f4f2619c54112b90e2d5ae62e64.setContent(html_e830f9b7bb438c5f7ad0a4d079eb5520);
+            
+        
+
+        circle_marker_1b1c73269fe7ada10cf96547d8bad420.bindPopup(popup_e0052f4f2619c54112b90e2d5ae62e64)
+        ;
+
+        
+    
+    
+            circle_marker_1b1c73269fe7ada10cf96547d8bad420.bindTooltip(
+                `<div>
+                     El Geish
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3b1205e96706e9e7f2793180be2259c3 = L.circleMarker(
+                [30.0539, 31.2478],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_c57e264559a3a6707c9e9eea1c4364e0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_274bf0fe8ce972942585e4077449d6b2 = $(`<div id="html_274bf0fe8ce972942585e4077449d6b2" style="width: 100.0%; height: 100.0%;">     <b>Bab El Shaaria</b><br>     👥 Passengers: 63,612,593<br>     💰 Revenue: 801.52M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_c57e264559a3a6707c9e9eea1c4364e0.setContent(html_274bf0fe8ce972942585e4077449d6b2);
+            
+        
+
+        circle_marker_3b1205e96706e9e7f2793180be2259c3.bindPopup(popup_c57e264559a3a6707c9e9eea1c4364e0)
+        ;
+
+        
+    
+    
+            circle_marker_3b1205e96706e9e7f2793180be2259c3.bindTooltip(
+                `<div>
+                     Bab El Shaaria
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f0ca77da63fa7ecc685105d3c75d740f = L.circleMarker(
+                [30.0506, 31.2322],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_b7647c22d17163454fafcc645332be64 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4f39eaa6655b66cf2c22025963bd4355 = $(`<div id="html_4f39eaa6655b66cf2c22025963bd4355" style="width: 100.0%; height: 100.0%;">     <b>Maspero</b><br>     👥 Passengers: 55,647,769<br>     💰 Revenue: 701.16M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_b7647c22d17163454fafcc645332be64.setContent(html_4f39eaa6655b66cf2c22025963bd4355);
+            
+        
+
+        circle_marker_f0ca77da63fa7ecc685105d3c75d740f.bindPopup(popup_b7647c22d17163454fafcc645332be64)
+        ;
+
+        
+    
+    
+            circle_marker_f0ca77da63fa7ecc685105d3c75d740f.bindTooltip(
+                `<div>
+                     Maspero
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fe44a9373f54ecc3bdbe84c412a7a5d9 = L.circleMarker(
+                [30.0478, 31.2261],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_0d555223df0ef03016955fd459598ed3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d831f976301425dc8f067db8b5686806 = $(`<div id="html_d831f976301425dc8f067db8b5686806" style="width: 100.0%; height: 100.0%;">     <b>Safaa Hegazy</b><br>     👥 Passengers: 25,726,422<br>     💰 Revenue: 324.15M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_0d555223df0ef03016955fd459598ed3.setContent(html_d831f976301425dc8f067db8b5686806);
+            
+        
+
+        circle_marker_fe44a9373f54ecc3bdbe84c412a7a5d9.bindPopup(popup_0d555223df0ef03016955fd459598ed3)
+        ;
+
+        
+    
+    
+            circle_marker_fe44a9373f54ecc3bdbe84c412a7a5d9.bindTooltip(
+                `<div>
+                     Safaa Hegazy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5bca9a02c01ef73e578aaae90191f16f = L.circleMarker(
+                [30.045, 31.22],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_3f0c3d22a664cd2fde68ba1c1388fd75 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d74fd49dca4f171ed76cbf48e5b546bd = $(`<div id="html_d74fd49dca4f171ed76cbf48e5b546bd" style="width: 100.0%; height: 100.0%;">     <b>Kit Kat</b><br>     👥 Passengers: 59,485,767<br>     💰 Revenue: 749.52M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_3f0c3d22a664cd2fde68ba1c1388fd75.setContent(html_d74fd49dca4f171ed76cbf48e5b546bd);
+            
+        
+
+        circle_marker_5bca9a02c01ef73e578aaae90191f16f.bindPopup(popup_3f0c3d22a664cd2fde68ba1c1388fd75)
+        ;
+
+        
+    
+    
+            circle_marker_5bca9a02c01ef73e578aaae90191f16f.bindTooltip(
+                `<div>
+                     Kit Kat
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0da71c5658fa1b59aaeb39515d08f762 = L.circleMarker(
+                [30.0422, 31.2139],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_06b29e0c987f91bf7573e69caa04d751 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b0c0ba9841b4ba86ed293c687c4a63cf = $(`<div id="html_b0c0ba9841b4ba86ed293c687c4a63cf" style="width: 100.0%; height: 100.0%;">     <b>Sudan</b><br>     👥 Passengers: 39,730,795<br>     💰 Revenue: 500.61M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_06b29e0c987f91bf7573e69caa04d751.setContent(html_b0c0ba9841b4ba86ed293c687c4a63cf);
+            
+        
+
+        circle_marker_0da71c5658fa1b59aaeb39515d08f762.bindPopup(popup_06b29e0c987f91bf7573e69caa04d751)
+        ;
+
+        
+    
+    
+            circle_marker_0da71c5658fa1b59aaeb39515d08f762.bindTooltip(
+                `<div>
+                     Sudan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c3de53ffc7cdd415e77d9814c16fc6c8 = L.circleMarker(
+                [30.0394, 31.2078],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_859c6d967a7d31781728cd9dd1e8c379 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_68969acd23867b5fb922d811a3a650cc = $(`<div id="html_68969acd23867b5fb922d811a3a650cc" style="width: 100.0%; height: 100.0%;">     <b>Imbaba</b><br>     👥 Passengers: 63,938,656<br>     💰 Revenue: 805.63M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_859c6d967a7d31781728cd9dd1e8c379.setContent(html_68969acd23867b5fb922d811a3a650cc);
+            
+        
+
+        circle_marker_c3de53ffc7cdd415e77d9814c16fc6c8.bindPopup(popup_859c6d967a7d31781728cd9dd1e8c379)
+        ;
+
+        
+    
+    
+            circle_marker_c3de53ffc7cdd415e77d9814c16fc6c8.bindTooltip(
+                `<div>
+                     Imbaba
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3a891d3df1077a0221d9e4159dd7195d = L.circleMarker(
+                [30.0367, 31.2017],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_cffa09a038f6d2602b743f7220799a00 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eb9f2905046a6397a9a283648667ed48 = $(`<div id="html_eb9f2905046a6397a9a283648667ed48" style="width: 100.0%; height: 100.0%;">     <b>El Bohy</b><br>     👥 Passengers: 18,385,987<br>     💰 Revenue: 231.66M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_cffa09a038f6d2602b743f7220799a00.setContent(html_eb9f2905046a6397a9a283648667ed48);
+            
+        
+
+        circle_marker_3a891d3df1077a0221d9e4159dd7195d.bindPopup(popup_cffa09a038f6d2602b743f7220799a00)
+        ;
+
+        
+    
+    
+            circle_marker_3a891d3df1077a0221d9e4159dd7195d.bindTooltip(
+                `<div>
+                     El Bohy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8443f34d75cf38cd9b89a8354ccae821 = L.circleMarker(
+                [30.0339, 31.1956],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_b290cf94f0201f530e83a6be8a53dfcc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d40f56b55dbc61281e13c222d7574ad5 = $(`<div id="html_d40f56b55dbc61281e13c222d7574ad5" style="width: 100.0%; height: 100.0%;">     <b>El Qawmia</b><br>     👥 Passengers: 16,367,999<br>     💰 Revenue: 206.24M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_b290cf94f0201f530e83a6be8a53dfcc.setContent(html_d40f56b55dbc61281e13c222d7574ad5);
+            
+        
+
+        circle_marker_8443f34d75cf38cd9b89a8354ccae821.bindPopup(popup_b290cf94f0201f530e83a6be8a53dfcc)
+        ;
+
+        
+    
+    
+            circle_marker_8443f34d75cf38cd9b89a8354ccae821.bindTooltip(
+                `<div>
+                     El Qawmia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2c19c6ee3634e073a80bfc7f8c1ae66f = L.circleMarker(
+                [30.0311, 31.1894],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_6cc9bb0204f3233c7b3560dc2b9e514e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b9ca5d9f06234870e68f6110e700a641 = $(`<div id="html_b9ca5d9f06234870e68f6110e700a641" style="width: 100.0%; height: 100.0%;">     <b>Ring Road</b><br>     👥 Passengers: 25,695,597<br>     💰 Revenue: 323.76M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_6cc9bb0204f3233c7b3560dc2b9e514e.setContent(html_b9ca5d9f06234870e68f6110e700a641);
+            
+        
+
+        circle_marker_2c19c6ee3634e073a80bfc7f8c1ae66f.bindPopup(popup_6cc9bb0204f3233c7b3560dc2b9e514e)
+        ;
+
+        
+    
+    
+            circle_marker_2c19c6ee3634e073a80bfc7f8c1ae66f.bindTooltip(
+                `<div>
+                     Ring Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c4fd385c706360c4d5fc0b4a3c7b693d = L.circleMarker(
+                [30.0283, 31.1833],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_dfd6a12b9e76e4262a9a6f5d85df796b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_77a45505344f290872f4a9d400b01345 = $(`<div id="html_77a45505344f290872f4a9d400b01345" style="width: 100.0%; height: 100.0%;">     <b>Rod El Farag Corridor</b><br>     👥 Passengers: 38,119,932<br>     💰 Revenue: 480.31M EGP<br>     🚇 Line: Line3     </div>`)[0];
+                popup_dfd6a12b9e76e4262a9a6f5d85df796b.setContent(html_77a45505344f290872f4a9d400b01345);
+            
+        
+
+        circle_marker_c4fd385c706360c4d5fc0b4a3c7b693d.bindPopup(popup_dfd6a12b9e76e4262a9a6f5d85df796b)
+        ;
+
+        
+    
+    
+            circle_marker_c4fd385c706360c4d5fc0b4a3c7b693d.bindTooltip(
+                `<div>
+                     Rod El Farag Corridor
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_887bd8296579c690e906eae106c44428 = L.circleMarker(
+                [30.0444, 31.2344],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_74ca24d2a2a7de645bd57e0ea3b2d53e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7ca9f36b679a8c2e03121446dc7c100d = $(`<div id="html_7ca9f36b679a8c2e03121446dc7c100d" style="width: 100.0%; height: 100.0%;">     <b>Sadat</b><br>     👥 Passengers: 210,415,190<br>     💰 Revenue: 2651.23M EGP<br>     🚇 Line: Transfer Line1/Line2     </div>`)[0];
+                popup_74ca24d2a2a7de645bd57e0ea3b2d53e.setContent(html_7ca9f36b679a8c2e03121446dc7c100d);
+            
+        
+
+        circle_marker_887bd8296579c690e906eae106c44428.bindPopup(popup_74ca24d2a2a7de645bd57e0ea3b2d53e)
+        ;
+
+        
+    
+    
+            circle_marker_887bd8296579c690e906eae106c44428.bindTooltip(
+                `<div>
+                     Sadat
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b59bd5d0f94b1b28a41946c81aa490a = L.circleMarker(
+                [30.0617, 31.2461],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_c0fcaf8c1318143ffe66a96d1ea1e837 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ec26ca2f886f56b9c2b3182be15dbeff = $(`<div id="html_ec26ca2f886f56b9c2b3182be15dbeff" style="width: 100.0%; height: 100.0%;">     <b>Al Shohadaa</b><br>     👥 Passengers: 236,367,357<br>     💰 Revenue: 2978.23M EGP<br>     🚇 Line: Transfer Line1/Line2     </div>`)[0];
+                popup_c0fcaf8c1318143ffe66a96d1ea1e837.setContent(html_ec26ca2f886f56b9c2b3182be15dbeff);
+            
+        
+
+        circle_marker_8b59bd5d0f94b1b28a41946c81aa490a.bindPopup(popup_c0fcaf8c1318143ffe66a96d1ea1e837)
+        ;
+
+        
+    
+    
+            circle_marker_8b59bd5d0f94b1b28a41946c81aa490a.bindTooltip(
+                `<div>
+                     Al Shohadaa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b8b9e04b7cb236464dc18b3beff0f83c = L.circleMarker(
+                [30.0522, 31.2519],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_9570f862fdb96b24a233a0b63592c2e9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a3d403203c1ac5f6d300a69f052a9bc2 = $(`<div id="html_a3d403203c1ac5f6d300a69f052a9bc2" style="width: 100.0%; height: 100.0%;">     <b>Attaba</b><br>     👥 Passengers: 133,685,542<br>     💰 Revenue: 1684.44M EGP<br>     🚇 Line: Transfer Line2/Line3     </div>`)[0];
+                popup_9570f862fdb96b24a233a0b63592c2e9.setContent(html_a3d403203c1ac5f6d300a69f052a9bc2);
+            
+        
+
+        circle_marker_b8b9e04b7cb236464dc18b3beff0f83c.bindPopup(popup_9570f862fdb96b24a233a0b63592c2e9)
+        ;
+
+        
+    
+    
+            circle_marker_b8b9e04b7cb236464dc18b3beff0f83c.bindTooltip(
+                `<div>
+                     Attaba
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c87ed072f025e397715d3ec7ad60124c = L.circleMarker(
+                [30.0533, 31.2383],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_bdb749528f71b27368fcd2f81dc0699c);
+        
+    
+        var popup_304c6cd5b0f45f7484a9a25e429af331 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b0e5b288306d93e959d169e97f6d696c = $(`<div id="html_b0e5b288306d93e959d169e97f6d696c" style="width: 100.0%; height: 100.0%;">     <b>Nasser</b><br>     👥 Passengers: 152,815,512<br>     💰 Revenue: 1925.48M EGP<br>     🚇 Line: Transfer Line1/Line3     </div>`)[0];
+                popup_304c6cd5b0f45f7484a9a25e429af331.setContent(html_b0e5b288306d93e959d169e97f6d696c);
+            
+        
+
+        circle_marker_c87ed072f025e397715d3ec7ad60124c.bindPopup(popup_304c6cd5b0f45f7484a9a25e429af331)
+        ;
+
+        
+    
+    
+            circle_marker_c87ed072f025e397715d3ec7ad60124c.bindTooltip(
+                `<div>
+                     Nasser
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
