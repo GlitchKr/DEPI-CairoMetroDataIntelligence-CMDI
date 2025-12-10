@@ -211,13 +211,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📧 Contact
-
-- **GitHub Issues:** [Create an issue](https://github.com/GlitchKr/DEPI-CairoMetroDataIntelligence-CMDI/issues)
-- **Email:** your.email@example.com
-
----
-
 <div align="center">
 
 **⭐ Star this repo if you find it helpful!**
