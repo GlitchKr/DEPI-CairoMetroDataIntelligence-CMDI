@@ -205,12 +205,6 @@ Developed as part of the **DEPI (Digital Egypt Pioneers Initiative)** program.
 
 ---
 
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) file for details.
-
----
-
 <div align="center">
 
 **⭐ Star this repo if you find it helpful!**
